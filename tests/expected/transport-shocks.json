@@ -1,0 +1,9 @@
+[
+  {
+    "fact_id": "logger-78",
+    "crate": "C8",
+    "sample_time": "2026-02-08T12:16:00Z",
+    "resultant_g": 5,
+    "at_or_above_trigger": true
+  }
+]

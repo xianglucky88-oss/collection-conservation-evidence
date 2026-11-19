@@ -1,0 +1,8 @@
+[
+  {
+    "fact_id": "closing-1",
+    "case": "case-N",
+    "first_in_band_minutes": 15,
+    "observation": "rh-15"
+  }
+]

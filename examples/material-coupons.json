@@ -1,0 +1,11 @@
+{
+  "records": [
+    {
+      "id": "coupon-A3",
+      "container": "trial-4",
+      "metal": "silver",
+      "corrosion_grade": 2
+    }
+  ],
+  "max_grade": 1
+}

@@ -1,0 +1,13 @@
+{
+  "records": [
+    {
+      "id": "logger-78",
+      "crate": "C8",
+      "sample_time": "2026-02-08T12:16:00Z",
+      "x_g": 3,
+      "y_g": 4,
+      "z_g": 0
+    }
+  ],
+  "trigger_g": 4
+}

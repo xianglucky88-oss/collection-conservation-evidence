@@ -1,0 +1,11 @@
+{
+  "records": [
+    {
+      "id": "check-9",
+      "trap": "trap-N",
+      "taxon": "carpet beetle",
+      "count": 3,
+      "deployed_days": 12
+    }
+  ]
+}

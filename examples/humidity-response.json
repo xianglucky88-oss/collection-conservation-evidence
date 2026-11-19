@@ -1,0 +1,22 @@
+{
+  "records": [
+    {
+      "id": "closing-1",
+      "case": "case-N",
+      "observations": [
+        {
+          "id": "rh-0",
+          "rh_pct": 65,
+          "minutes_after_close": 0
+        },
+        {
+          "id": "rh-15",
+          "rh_pct": 50,
+          "minutes_after_close": 15
+        }
+      ]
+    }
+  ],
+  "lower_rh_pct": 45,
+  "upper_rh_pct": 55
+}

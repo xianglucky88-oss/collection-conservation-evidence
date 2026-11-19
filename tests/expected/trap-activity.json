@@ -1,0 +1,9 @@
+[
+  {
+    "fact_id": "check-9",
+    "trap": "trap-N",
+    "taxon": "carpet beetle",
+    "count": 3,
+    "per_trap_day": 0.25
+  }
+]
