@@ -1,11 +1,157 @@
 {
-  "records": [
+  "zones": [
+    {"id": "zone-a", "name": "A 排储藏柜"},
+    {"id": "zone-b", "name": "B 排储藏柜"}
+  ],
+  "traps": [
     {
-      "id": "check-9",
-      "trap": "trap-N",
-      "taxon": "carpet beetle",
-      "count": 3,
-      "deployed_days": 12
+      "id": "trap-1",
+      "placements": [
+        {"zone": "zone-a", "start_day": 0, "end_day": 7}
+      ]
+    },
+    {
+      "id": "trap-2",
+      "placements": [
+        {"zone": "zone-a", "start_day": 0, "end_day": 5}
+      ]
+    },
+    {
+      "id": "trap-3",
+      "placements": [
+        {"zone": "zone-a", "start_day": 0, "end_day": 3},
+        {"zone": "zone-b", "start_day": 3, "end_day": 7}
+      ]
+    },
+    {
+      "id": "trap-4",
+      "placements": [
+        {"zone": "zone-b", "start_day": 0, "end_day": 7}
+      ]
+    },
+    {
+      "id": "trap-5",
+      "placements": [
+        {"zone": "zone-b", "start_day": 2, "end_day": 6}
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "check-1",
+      "trap": "trap-1",
+      "start_day": 0,
+      "end_day": 3.5,
+      "entries": [
+        {
+          "id": "entry-1-initial",
+          "count": 2,
+          "rank": "species",
+          "genus": "Anthrenus",
+          "species": "verbasci",
+          "source": "paper-log-week-47"
+        },
+        {
+          "id": "entry-1-amended",
+          "count": 3,
+          "rank": "species",
+          "genus": "Anthrenus",
+          "species": "verbasci",
+          "source": "follow-up-email-week-47",
+          "amends": "entry-1-initial"
+        }
+      ]
+    },
+    {
+      "id": "check-2",
+      "trap": "trap-1",
+      "start_day": 3.5,
+      "end_day": 7,
+      "entries": [
+        {
+          "id": "entry-2",
+          "count": 1,
+          "rank": "genus",
+          "genus": "Anthrenus",
+          "source": "paper-log-week-47"
+        }
+      ]
+    },
+    {
+      "id": "check-3",
+      "trap": "trap-2",
+      "start_day": 0,
+      "end_day": 5,
+      "entries": [
+        {
+          "id": "entry-3",
+          "count": 0,
+          "source": "paper-log-week-47"
+        }
+      ]
+    },
+    {
+      "id": "check-4",
+      "trap": "trap-3",
+      "start_day": 0,
+      "end_day": 7,
+      "entries": [
+        {
+          "id": "entry-4",
+          "count": 4,
+          "rank": "species",
+          "genus": "Anthrenus",
+          "species": "verbasci",
+          "source": "paper-log-week-47"
+        }
+      ]
+    },
+    {
+      "id": "check-5",
+      "trap": "trap-4",
+      "start_day": 0,
+      "end_day": 3.5,
+      "entries": [
+        {
+          "id": "entry-5",
+          "count": 5,
+          "rank": "species",
+          "genus": "Tineola",
+          "species": "bisselliella",
+          "source": "paper-log-week-47"
+        }
+      ]
+    },
+    {
+      "id": "check-6",
+      "trap": "trap-4",
+      "start_day": 3.5,
+      "end_day": 7,
+      "entries": [
+        {
+          "id": "entry-6",
+          "count": 1,
+          "rank": "genus",
+          "genus": "Tineola",
+          "source": "paper-log-week-47"
+        }
+      ]
+    },
+    {
+      "id": "check-7",
+      "trap": "trap-5",
+      "start_day": 2,
+      "end_day": 3,
+      "entries": [
+        {
+          "id": "entry-7",
+          "count": 0,
+          "rank": "species",
+          "genus": "Tineola",
+          "species": "bisselliella",
+          "source": "paper-log-week-47"
+        }
+      ]
     }
   ]
 }

@@ -1,9 +1,560 @@
 [
   {
-    "fact_id": "check-9",
-    "trap": "trap-N",
-    "taxon": "carpet beetle",
-    "count": 3,
-    "per_trap_day": 0.25
+    "checks": [
+      "check-1",
+      "check-2"
+    ],
+    "deployed_days": 7.0,
+    "fact_id": "trap-deployment:trap-1",
+    "placements": [
+      {
+        "days": 7.0,
+        "end_day": 7.0,
+        "start_day": 0.0,
+        "zone": "zone-a"
+      }
+    ],
+    "trap": "trap-1"
+  },
+  {
+    "checks": [
+      "check-3"
+    ],
+    "deployed_days": 5.0,
+    "fact_id": "trap-deployment:trap-2",
+    "placements": [
+      {
+        "days": 5.0,
+        "end_day": 5.0,
+        "start_day": 0.0,
+        "zone": "zone-a"
+      }
+    ],
+    "trap": "trap-2"
+  },
+  {
+    "checks": [
+      "check-4"
+    ],
+    "deployed_days": 7.0,
+    "fact_id": "trap-deployment:trap-3",
+    "placements": [
+      {
+        "days": 3.0,
+        "end_day": 3.0,
+        "start_day": 0.0,
+        "zone": "zone-a"
+      },
+      {
+        "days": 4.0,
+        "end_day": 7.0,
+        "start_day": 3.0,
+        "zone": "zone-b"
+      }
+    ],
+    "trap": "trap-3"
+  },
+  {
+    "checks": [
+      "check-5",
+      "check-6"
+    ],
+    "deployed_days": 7.0,
+    "fact_id": "trap-deployment:trap-4",
+    "placements": [
+      {
+        "days": 7.0,
+        "end_day": 7.0,
+        "start_day": 0.0,
+        "zone": "zone-b"
+      }
+    ],
+    "trap": "trap-4"
+  },
+  {
+    "checks": [
+      "check-7"
+    ],
+    "deployed_days": 4.0,
+    "fact_id": "trap-deployment:trap-5",
+    "placements": [
+      {
+        "days": 4.0,
+        "end_day": 6.0,
+        "start_day": 2.0,
+        "zone": "zone-b"
+      }
+    ],
+    "trap": "trap-5"
+  },
+  {
+    "allocations": [
+      {
+        "count": 3,
+        "observed_days": 3.5,
+        "zone": "zone-a"
+      }
+    ],
+    "ambiguous_handover": false,
+    "authoritative_entry_id": "entry-1-amended",
+    "check": "check-1",
+    "end_day": 3.5,
+    "entries": [
+      {
+        "amends": null,
+        "count": 2,
+        "entry": "entry-1-initial",
+        "genus": "Anthrenus",
+        "rank": "species",
+        "source": "paper-log-week-47",
+        "species": "verbasci"
+      },
+      {
+        "amends": "entry-1-initial",
+        "count": 3,
+        "entry": "entry-1-amended",
+        "genus": "Anthrenus",
+        "rank": "species",
+        "source": "follow-up-email-week-47",
+        "species": "verbasci"
+      }
+    ],
+    "fact_id": "trap-check:check-1",
+    "observed_days": 3.5,
+    "start_day": 0.0,
+    "trap": "trap-1",
+    "zero_catch": false
+  },
+  {
+    "allocations": [
+      {
+        "count": 1,
+        "observed_days": 3.5,
+        "zone": "zone-a"
+      }
+    ],
+    "ambiguous_handover": false,
+    "authoritative_entry_id": "entry-2",
+    "check": "check-2",
+    "end_day": 7.0,
+    "entries": [
+      {
+        "amends": null,
+        "count": 1,
+        "entry": "entry-2",
+        "genus": "Anthrenus",
+        "rank": "genus",
+        "source": "paper-log-week-47",
+        "species": null
+      }
+    ],
+    "fact_id": "trap-check:check-2",
+    "observed_days": 3.5,
+    "start_day": 3.5,
+    "trap": "trap-1",
+    "zero_catch": false
+  },
+  {
+    "allocations": [
+      {
+        "count": 0,
+        "observed_days": 5.0,
+        "zone": "zone-a"
+      }
+    ],
+    "ambiguous_handover": false,
+    "authoritative_entry_id": "entry-3",
+    "check": "check-3",
+    "end_day": 5.0,
+    "entries": [
+      {
+        "amends": null,
+        "count": 0,
+        "entry": "entry-3",
+        "genus": null,
+        "rank": null,
+        "source": "paper-log-week-47",
+        "species": null
+      }
+    ],
+    "fact_id": "trap-check:check-3",
+    "observed_days": 5.0,
+    "start_day": 0.0,
+    "trap": "trap-2",
+    "zero_catch": true
+  },
+  {
+    "allocations": [
+      {
+        "max_count": 4,
+        "min_count": 0,
+        "observed_days": 3.0,
+        "zone": "zone-a"
+      },
+      {
+        "max_count": 4,
+        "min_count": 0,
+        "observed_days": 4.0,
+        "zone": "zone-b"
+      }
+    ],
+    "ambiguous_handover": true,
+    "authoritative_entry_id": "entry-4",
+    "check": "check-4",
+    "end_day": 7.0,
+    "entries": [
+      {
+        "amends": null,
+        "count": 4,
+        "entry": "entry-4",
+        "genus": "Anthrenus",
+        "rank": "species",
+        "source": "paper-log-week-47",
+        "species": "verbasci"
+      }
+    ],
+    "fact_id": "trap-check:check-4",
+    "observed_days": 7.0,
+    "start_day": 0.0,
+    "trap": "trap-3",
+    "zero_catch": false
+  },
+  {
+    "allocation_rule": "the single batch may be assigned to exactly one zone",
+    "batch": "check-4",
+    "count": 4,
+    "end_day": 7.0,
+    "fact_id": "handover-batch:check-4",
+    "genus": "Anthrenus",
+    "rank": "species",
+    "species": "verbasci",
+    "start_day": 0.0,
+    "trap": "trap-3",
+    "zones": [
+      "zone-a",
+      "zone-b"
+    ]
+  },
+  {
+    "allocations": [
+      {
+        "count": 5,
+        "observed_days": 3.5,
+        "zone": "zone-b"
+      }
+    ],
+    "ambiguous_handover": false,
+    "authoritative_entry_id": "entry-5",
+    "check": "check-5",
+    "end_day": 3.5,
+    "entries": [
+      {
+        "amends": null,
+        "count": 5,
+        "entry": "entry-5",
+        "genus": "Tineola",
+        "rank": "species",
+        "source": "paper-log-week-47",
+        "species": "bisselliella"
+      }
+    ],
+    "fact_id": "trap-check:check-5",
+    "observed_days": 3.5,
+    "start_day": 0.0,
+    "trap": "trap-4",
+    "zero_catch": false
+  },
+  {
+    "allocations": [
+      {
+        "count": 1,
+        "observed_days": 3.5,
+        "zone": "zone-b"
+      }
+    ],
+    "ambiguous_handover": false,
+    "authoritative_entry_id": "entry-6",
+    "check": "check-6",
+    "end_day": 7.0,
+    "entries": [
+      {
+        "amends": null,
+        "count": 1,
+        "entry": "entry-6",
+        "genus": "Tineola",
+        "rank": "genus",
+        "source": "paper-log-week-47",
+        "species": null
+      }
+    ],
+    "fact_id": "trap-check:check-6",
+    "observed_days": 3.5,
+    "start_day": 3.5,
+    "trap": "trap-4",
+    "zero_catch": false
+  },
+  {
+    "allocations": [
+      {
+        "count": 0,
+        "observed_days": 1.0,
+        "zone": "zone-b"
+      }
+    ],
+    "ambiguous_handover": false,
+    "authoritative_entry_id": "entry-7",
+    "check": "check-7",
+    "end_day": 3.0,
+    "entries": [
+      {
+        "amends": null,
+        "count": 0,
+        "entry": "entry-7",
+        "genus": "Tineola",
+        "rank": "species",
+        "source": "paper-log-week-47",
+        "species": "bisselliella"
+      }
+    ],
+    "fact_id": "trap-check:check-7",
+    "observed_days": 1.0,
+    "start_day": 2.0,
+    "trap": "trap-5",
+    "zero_catch": true
+  },
+  {
+    "ambiguous_batches": [
+      "check-4"
+    ],
+    "checks": [
+      "check-1",
+      "check-2",
+      "check-3",
+      "check-4"
+    ],
+    "count_definite": 4,
+    "count_max": 8,
+    "count_min": 4,
+    "deployed_trap_days": 15.0,
+    "effective_trap_days": 15.0,
+    "fact_id": "zone-activity:zone-a",
+    "max_per_trap_day": 0.533333,
+    "min_per_trap_day": 0.266667,
+    "traps": [
+      "trap-1",
+      "trap-2",
+      "trap-3"
+    ],
+    "unobserved_segments": [],
+    "zero_catch_checks": [
+      "check-3"
+    ],
+    "zone": "zone-a",
+    "zone_name": "A 排储藏柜"
+  },
+  {
+    "ambiguous_batches": [
+      "check-4"
+    ],
+    "checks": [
+      "check-4",
+      "check-5",
+      "check-6",
+      "check-7"
+    ],
+    "count_definite": 6,
+    "count_max": 10,
+    "count_min": 6,
+    "deployed_trap_days": 18.0,
+    "effective_trap_days": 12.0,
+    "fact_id": "zone-activity:zone-b",
+    "max_per_trap_day": 0.833333,
+    "min_per_trap_day": 0.5,
+    "traps": [
+      "trap-3",
+      "trap-4",
+      "trap-5"
+    ],
+    "unobserved_segments": [
+      {
+        "days": 3.0,
+        "end_day": 6.0,
+        "start_day": 3.0,
+        "trap": "trap-5"
+      }
+    ],
+    "zero_catch_checks": [
+      "check-7"
+    ],
+    "zone": "zone-b",
+    "zone_name": "B 排储藏柜"
+  },
+  {
+    "ambiguous_handover_checks": [
+      "check-4"
+    ],
+    "checks": [
+      "check-1",
+      "check-2",
+      "check-4"
+    ],
+    "count_definite": 4,
+    "count_max": 8,
+    "count_min": 4,
+    "diagnosis_complete": false,
+    "effective_trap_days": 15.0,
+    "fact_id": "genus-comparison:Anthrenus:zone-a",
+    "genus": "Anthrenus",
+    "genus_rank_checks": [
+      "check-2"
+    ],
+    "max_per_trap_day": 0.533333,
+    "min_per_trap_day": 0.266667,
+    "zone": "zone-a"
+  },
+  {
+    "ambiguous_handover_checks": [
+      "check-4"
+    ],
+    "checks": [
+      "check-4"
+    ],
+    "count_definite": 0,
+    "count_max": 4,
+    "count_min": 0,
+    "diagnosis_complete": false,
+    "effective_trap_days": 12.0,
+    "fact_id": "genus-comparison:Anthrenus:zone-b",
+    "genus": "Anthrenus",
+    "genus_rank_checks": [],
+    "max_per_trap_day": 0.333333,
+    "min_per_trap_day": 0.0,
+    "zone": "zone-b"
+  },
+  {
+    "ambiguous_handover_checks": [],
+    "checks": [],
+    "count_definite": 0,
+    "count_max": 0,
+    "count_min": 0,
+    "diagnosis_complete": true,
+    "effective_trap_days": 15.0,
+    "fact_id": "genus-comparison:Tineola:zone-a",
+    "genus": "Tineola",
+    "genus_rank_checks": [],
+    "max_per_trap_day": 0.0,
+    "min_per_trap_day": 0.0,
+    "zone": "zone-a"
+  },
+  {
+    "ambiguous_handover_checks": [],
+    "checks": [
+      "check-5",
+      "check-6",
+      "check-7"
+    ],
+    "count_definite": 6,
+    "count_max": 6,
+    "count_min": 6,
+    "diagnosis_complete": true,
+    "effective_trap_days": 12.0,
+    "fact_id": "genus-comparison:Tineola:zone-b",
+    "genus": "Tineola",
+    "genus_rank_checks": [
+      "check-6"
+    ],
+    "max_per_trap_day": 0.5,
+    "min_per_trap_day": 0.5,
+    "zone": "zone-b"
+  },
+  {
+    "absence_checks": [],
+    "ambiguous_handover_checks": [
+      "check-4"
+    ],
+    "count_definite": 3,
+    "count_max": 7,
+    "count_min": 3,
+    "diagnosis_complete": false,
+    "effective_trap_days": 15.0,
+    "fact_id": "species-comparison:Anthrenus-verbasci:zone-a",
+    "genus": "Anthrenus",
+    "genus_rank_checks": [
+      "check-2"
+    ],
+    "max_per_trap_day": 0.466667,
+    "min_per_trap_day": 0.2,
+    "presence_checks": [
+      "check-1"
+    ],
+    "species": "verbasci",
+    "zone": "zone-a"
+  },
+  {
+    "absence_checks": [],
+    "ambiguous_handover_checks": [
+      "check-4"
+    ],
+    "count_definite": 0,
+    "count_max": 4,
+    "count_min": 0,
+    "diagnosis_complete": false,
+    "effective_trap_days": 12.0,
+    "fact_id": "species-comparison:Anthrenus-verbasci:zone-b",
+    "genus": "Anthrenus",
+    "genus_rank_checks": [],
+    "max_per_trap_day": 0.333333,
+    "min_per_trap_day": 0.0,
+    "presence_checks": [],
+    "species": "verbasci",
+    "zone": "zone-b"
+  },
+  {
+    "absence_checks": [],
+    "ambiguous_handover_checks": [],
+    "count_definite": 0,
+    "count_max": 0,
+    "count_min": 0,
+    "diagnosis_complete": true,
+    "effective_trap_days": 15.0,
+    "fact_id": "species-comparison:Tineola-bisselliella:zone-a",
+    "genus": "Tineola",
+    "genus_rank_checks": [],
+    "max_per_trap_day": 0.0,
+    "min_per_trap_day": 0.0,
+    "presence_checks": [],
+    "species": "bisselliella",
+    "zone": "zone-a"
+  },
+  {
+    "absence_checks": [
+      "check-7"
+    ],
+    "ambiguous_handover_checks": [],
+    "count_definite": 5,
+    "count_max": 5,
+    "count_min": 5,
+    "diagnosis_complete": false,
+    "effective_trap_days": 12.0,
+    "fact_id": "species-comparison:Tineola-bisselliella:zone-b",
+    "genus": "Tineola",
+    "genus_rank_checks": [
+      "check-6"
+    ],
+    "max_per_trap_day": 0.416667,
+    "min_per_trap_day": 0.416667,
+    "presence_checks": [
+      "check-5"
+    ],
+    "species": "bisselliella",
+    "zone": "zone-b"
+  },
+  {
+    "fact_id": "zone-comparison:zone-a:zone-b",
+    "verdict": "inconclusive: possible per-trap-day ranges overlap",
+    "zones": [
+      "zone-a",
+      "zone-b"
+    ]
   }
 ]
