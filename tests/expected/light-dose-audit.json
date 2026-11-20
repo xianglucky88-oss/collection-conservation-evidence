@@ -1,0 +1,626 @@
+[
+  {
+    "as_of": "2026-11-20T00:00:00",
+    "dark_stays": [
+      {
+        "end": "2026-02-10T10:00:00",
+        "hours": 674.0,
+        "id": "dark-001",
+        "location": "vault-D",
+        "lower_lux_hours": 0.0,
+        "segment_ids": [
+          "seg:009"
+        ],
+        "start": "2026-01-13T08:00:00",
+        "upper_lux_hours": 0.0
+      },
+      {
+        "end": "2026-03-02T09:00:00",
+        "hours": 477.0,
+        "id": "dark-002",
+        "location": "vault-D",
+        "lower_lux_hours": 0.0,
+        "segment_ids": [
+          "seg:011"
+        ],
+        "start": "2026-02-10T12:00:00",
+        "upper_lux_hours": 0.0
+      }
+    ],
+    "fact_id": "audit",
+    "handovers": [
+      {
+        "earliest": "2026-01-12T08:00:00",
+        "from": "case-C",
+        "hours": 24.0,
+        "id": "h1",
+        "latest": "2026-01-13T08:00:00",
+        "lower_lux_hours": 0.0,
+        "measured_hours": 0,
+        "measured_lower_lux_hours": 0,
+        "measured_upper_lux_hours": 0,
+        "to": "vault-D",
+        "unmeasured_hours": 24.0,
+        "unmeasured_lower_lux_hours": 0.0,
+        "unmeasured_upper_lux_hours": 2880.0,
+        "upper_bound_supported": true,
+        "upper_lux_hours": 2880.0
+      },
+      {
+        "earliest": "2026-03-02T09:00:00",
+        "from": "vault-D",
+        "hours": 24.0,
+        "id": "h2",
+        "latest": "2026-03-03T09:00:00",
+        "lower_lux_hours": 0.0,
+        "measured_hours": 0,
+        "measured_lower_lux_hours": 0,
+        "measured_upper_lux_hours": 0,
+        "to": "gallery-G",
+        "unmeasured_hours": 24.0,
+        "unmeasured_lower_lux_hours": 0.0,
+        "unmeasured_upper_lux_hours": null,
+        "upper_bound_supported": false,
+        "upper_lux_hours": null
+      }
+    ],
+    "measurement_scopes": [
+      {
+        "corrects": null,
+        "location": "case-C",
+        "lux": 50.0,
+        "ranges": [
+          {
+            "end": "2025-12-24T17:00:00",
+            "start": "2025-12-20T09:00:00"
+          }
+        ],
+        "reading_id": "r1",
+        "superseded": false
+      },
+      {
+        "corrects": null,
+        "location": "case-C",
+        "lux": 46.0,
+        "ranges": [
+          {
+            "end": "2025-12-23T09:00:00",
+            "start": "2025-12-22T09:00:00"
+          }
+        ],
+        "reading_id": "r4",
+        "superseded": false
+      },
+      {
+        "corrects": null,
+        "location": "case-C",
+        "lux": 50.0,
+        "ranges": [
+          {
+            "end": "2026-01-05T09:00:00",
+            "start": "2025-12-24T17:00:00"
+          },
+          {
+            "end": "2026-01-12T08:00:00",
+            "start": "2026-01-06T09:00:00"
+          }
+        ],
+        "reading_id": "r2",
+        "superseded": false
+      },
+      {
+        "corrects": "r2",
+        "location": "case-C",
+        "lux": 40.0,
+        "ranges": [
+          {
+            "end": "2026-01-06T09:00:00",
+            "start": "2026-01-05T09:00:00"
+          }
+        ],
+        "reading_id": "r3",
+        "superseded": false
+      },
+      {
+        "corrects": null,
+        "location": "vault-D",
+        "lux": 5.0,
+        "ranges": [
+          {
+            "end": "2026-02-10T12:00:00",
+            "start": "2026-02-10T10:00:00"
+          }
+        ],
+        "reading_id": "r5",
+        "superseded": false
+      },
+      {
+        "corrects": null,
+        "location": "gallery-G",
+        "lux": 30.0,
+        "ranges": [
+          {
+            "end": "2026-06-01T09:00:00",
+            "start": "2026-03-03T09:00:00"
+          }
+        ],
+        "reading_id": "r6",
+        "superseded": false
+      },
+      {
+        "corrects": null,
+        "location": "gallery-G",
+        "lux": 30.0,
+        "ranges": [
+          {
+            "end": "2026-11-10T09:00:00",
+            "start": "2026-09-01T09:00:00"
+          }
+        ],
+        "reading_id": "r7",
+        "superseded": false
+      }
+    ],
+    "object": "scroll-S",
+    "query_lux": 50.0,
+    "remaining_display": [
+      {
+        "annual_quota_lux_hours": 25000.0,
+        "best_effort_remaining_hours": 222.92,
+        "guaranteed_remaining_hours": 0.0,
+        "year": 2025
+      },
+      {
+        "annual_quota_lux_hours": 200000.0,
+        "best_effort_remaining_hours": 1428.6,
+        "guaranteed_remaining_hours": null,
+        "year": 2026
+      }
+    ],
+    "unmeasured_gaps": [
+      {
+        "cause": "no_measurement",
+        "end": "2025-12-20T09:00:00",
+        "handover_id": null,
+        "hours": 120.0,
+        "id": "gap-001",
+        "location": "case-C",
+        "lower_lux_hours": 0.0,
+        "segment_ids": [
+          "seg:000"
+        ],
+        "start": "2025-12-15T09:00:00",
+        "upper_bound_supported": true,
+        "upper_lux_hours": 14400.0
+      },
+      {
+        "cause": "handover_window",
+        "end": "2026-01-13T08:00:00",
+        "handover_id": "h1",
+        "hours": 24.0,
+        "id": "gap-002",
+        "location": "h1",
+        "lower_lux_hours": 0.0,
+        "segment_ids": [
+          "seg:008"
+        ],
+        "start": "2026-01-12T08:00:00",
+        "upper_bound_supported": true,
+        "upper_lux_hours": 2880.0
+      },
+      {
+        "cause": "handover_window",
+        "end": "2026-03-03T09:00:00",
+        "handover_id": "h2",
+        "hours": 24.0,
+        "id": "gap-003",
+        "location": "h2",
+        "lower_lux_hours": 0.0,
+        "segment_ids": [
+          "seg:012"
+        ],
+        "start": "2026-03-02T09:00:00",
+        "upper_bound_supported": false,
+        "upper_lux_hours": null
+      },
+      {
+        "cause": "no_measurement",
+        "end": "2026-09-01T09:00:00",
+        "handover_id": null,
+        "hours": 2208.0,
+        "id": "gap-004",
+        "location": "gallery-G",
+        "lower_lux_hours": 0.0,
+        "segment_ids": [
+          "seg:014"
+        ],
+        "start": "2026-06-01T09:00:00",
+        "upper_bound_supported": false,
+        "upper_lux_hours": null
+      },
+      {
+        "cause": "no_measurement",
+        "end": "2026-11-20T00:00:00",
+        "handover_id": null,
+        "hours": 231.0,
+        "id": "gap-005",
+        "location": "gallery-G",
+        "lower_lux_hours": 0.0,
+        "segment_ids": [
+          "seg:016"
+        ],
+        "start": "2026-11-10T09:00:00",
+        "upper_bound_supported": false,
+        "upper_lux_hours": null
+      }
+    ],
+    "warnings": [
+      {
+        "code": "possible_exhaustion",
+        "responsible": [
+          "seg:000"
+        ],
+        "year": 2025
+      },
+      {
+        "code": "upper_bound_unsupported",
+        "responsible": [
+          "seg:012",
+          "seg:014",
+          "seg:016"
+        ],
+        "year": 2026
+      }
+    ],
+    "window_start": "2025-12-15T09:00:00",
+    "years": {
+      "2025": {
+        "dark_hours": 0.0,
+        "lower_lux_hours": 13854.0,
+        "measured_lower_lux_hours": 13854.0,
+        "measured_upper_lux_hours": 13950.0,
+        "unmeasured_hours": 120.0,
+        "unmeasured_lower_lux_hours": 0.0,
+        "unmeasured_upper_lux_hours": 14400.0,
+        "unmeasured_upper_supported": true,
+        "upper_bound_supported": true,
+        "upper_lux_hours": 28350.0,
+        "year": 2025
+      },
+      "2026": {
+        "dark_hours": 1151.0,
+        "lower_lux_hours": 128570.0,
+        "measured_lower_lux_hours": 128570.0,
+        "measured_upper_lux_hours": 128570.0,
+        "unmeasured_hours": 2487.0,
+        "unmeasured_lower_lux_hours": 0.0,
+        "unmeasured_upper_lux_hours": null,
+        "unmeasured_upper_supported": false,
+        "upper_bound_supported": false,
+        "upper_lux_hours": null,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "dark_hours": 0.0,
+    "fact_id": "year:2025",
+    "lower_lux_hours": 13854.0,
+    "measured_lower_lux_hours": 13854.0,
+    "measured_upper_lux_hours": 13950.0,
+    "unmeasured_hours": 120.0,
+    "unmeasured_lower_lux_hours": 0.0,
+    "unmeasured_upper_lux_hours": 14400.0,
+    "unmeasured_upper_supported": true,
+    "upper_bound_supported": true,
+    "upper_lux_hours": 28350.0,
+    "year": 2025
+  },
+  {
+    "dark_hours": 1151.0,
+    "fact_id": "year:2026",
+    "lower_lux_hours": 128570.0,
+    "measured_lower_lux_hours": 128570.0,
+    "measured_upper_lux_hours": 128570.0,
+    "unmeasured_hours": 2487.0,
+    "unmeasured_lower_lux_hours": 0.0,
+    "unmeasured_upper_lux_hours": null,
+    "unmeasured_upper_supported": false,
+    "upper_bound_supported": false,
+    "upper_lux_hours": null,
+    "year": 2026
+  },
+  {
+    "category": "gap",
+    "end": "2025-12-20T09:00:00",
+    "fact_id": "seg:000",
+    "handover_id": null,
+    "hours": 120.0,
+    "location": "case-C",
+    "lower_lux": 0.0,
+    "lower_lux_hours": 0.0,
+    "reading_ids": [],
+    "start": "2025-12-15T09:00:00",
+    "upper_bound_supported": true,
+    "upper_lux": 120.0,
+    "upper_lux_hours": 14400.0,
+    "year": 2025
+  },
+  {
+    "category": "measured",
+    "end": "2025-12-22T09:00:00",
+    "fact_id": "seg:001",
+    "handover_id": null,
+    "hours": 48.0,
+    "location": "case-C",
+    "lower_lux": 50.0,
+    "lower_lux_hours": 2400.0,
+    "reading_ids": [
+      "r1"
+    ],
+    "start": "2025-12-20T09:00:00",
+    "upper_bound_supported": true,
+    "upper_lux": 50.0,
+    "upper_lux_hours": 2400.0,
+    "year": 2025
+  },
+  {
+    "category": "measured",
+    "end": "2025-12-23T09:00:00",
+    "fact_id": "seg:002",
+    "handover_id": null,
+    "hours": 24.0,
+    "location": "case-C",
+    "lower_lux": 46.0,
+    "lower_lux_hours": 1104.0,
+    "reading_ids": [
+      "r1",
+      "r4"
+    ],
+    "start": "2025-12-22T09:00:00",
+    "upper_bound_supported": true,
+    "upper_lux": 50.0,
+    "upper_lux_hours": 1200.0,
+    "year": 2025
+  },
+  {
+    "category": "measured",
+    "end": "2025-12-24T17:00:00",
+    "fact_id": "seg:003",
+    "handover_id": null,
+    "hours": 32.0,
+    "location": "case-C",
+    "lower_lux": 50.0,
+    "lower_lux_hours": 1600.0,
+    "reading_ids": [
+      "r1"
+    ],
+    "start": "2025-12-23T09:00:00",
+    "upper_bound_supported": true,
+    "upper_lux": 50.0,
+    "upper_lux_hours": 1600.0,
+    "year": 2025
+  },
+  {
+    "category": "measured",
+    "end": "2026-01-01T00:00:00",
+    "fact_id": "seg:004",
+    "handover_id": null,
+    "hours": 175.0,
+    "location": "case-C",
+    "lower_lux": 50.0,
+    "lower_lux_hours": 8750.0,
+    "reading_ids": [
+      "r2"
+    ],
+    "start": "2025-12-24T17:00:00",
+    "upper_bound_supported": true,
+    "upper_lux": 50.0,
+    "upper_lux_hours": 8750.0,
+    "year": 2025
+  },
+  {
+    "category": "measured",
+    "end": "2026-01-05T09:00:00",
+    "fact_id": "seg:005",
+    "handover_id": null,
+    "hours": 105.0,
+    "location": "case-C",
+    "lower_lux": 50.0,
+    "lower_lux_hours": 5250.0,
+    "reading_ids": [
+      "r2"
+    ],
+    "start": "2026-01-01T00:00:00",
+    "upper_bound_supported": true,
+    "upper_lux": 50.0,
+    "upper_lux_hours": 5250.0,
+    "year": 2026
+  },
+  {
+    "category": "measured",
+    "end": "2026-01-06T09:00:00",
+    "fact_id": "seg:006",
+    "handover_id": null,
+    "hours": 24.0,
+    "location": "case-C",
+    "lower_lux": 40.0,
+    "lower_lux_hours": 960.0,
+    "reading_ids": [
+      "r3"
+    ],
+    "start": "2026-01-05T09:00:00",
+    "upper_bound_supported": true,
+    "upper_lux": 40.0,
+    "upper_lux_hours": 960.0,
+    "year": 2026
+  },
+  {
+    "category": "measured",
+    "end": "2026-01-12T08:00:00",
+    "fact_id": "seg:007",
+    "handover_id": null,
+    "hours": 143.0,
+    "location": "case-C",
+    "lower_lux": 50.0,
+    "lower_lux_hours": 7150.0,
+    "reading_ids": [
+      "r2"
+    ],
+    "start": "2026-01-06T09:00:00",
+    "upper_bound_supported": true,
+    "upper_lux": 50.0,
+    "upper_lux_hours": 7150.0,
+    "year": 2026
+  },
+  {
+    "category": "handover",
+    "end": "2026-01-13T08:00:00",
+    "fact_id": "seg:008",
+    "handover_id": "h1",
+    "hours": 24.0,
+    "location": "h1",
+    "lower_lux": 0.0,
+    "lower_lux_hours": 0.0,
+    "reading_ids": [],
+    "start": "2026-01-12T08:00:00",
+    "upper_bound_supported": true,
+    "upper_lux": 120.0,
+    "upper_lux_hours": 2880.0,
+    "year": 2026
+  },
+  {
+    "category": "dark",
+    "end": "2026-02-10T10:00:00",
+    "fact_id": "seg:009",
+    "handover_id": null,
+    "hours": 674.0,
+    "location": "vault-D",
+    "lower_lux": 0.0,
+    "lower_lux_hours": 0.0,
+    "reading_ids": [],
+    "start": "2026-01-13T08:00:00",
+    "upper_bound_supported": true,
+    "upper_lux": 0.0,
+    "upper_lux_hours": 0.0,
+    "year": 2026
+  },
+  {
+    "category": "measured",
+    "end": "2026-02-10T12:00:00",
+    "fact_id": "seg:010",
+    "handover_id": null,
+    "hours": 2.0,
+    "location": "vault-D",
+    "lower_lux": 5.0,
+    "lower_lux_hours": 10.0,
+    "reading_ids": [
+      "r5"
+    ],
+    "start": "2026-02-10T10:00:00",
+    "upper_bound_supported": true,
+    "upper_lux": 5.0,
+    "upper_lux_hours": 10.0,
+    "year": 2026
+  },
+  {
+    "category": "dark",
+    "end": "2026-03-02T09:00:00",
+    "fact_id": "seg:011",
+    "handover_id": null,
+    "hours": 477.0,
+    "location": "vault-D",
+    "lower_lux": 0.0,
+    "lower_lux_hours": 0.0,
+    "reading_ids": [],
+    "start": "2026-02-10T12:00:00",
+    "upper_bound_supported": true,
+    "upper_lux": 0.0,
+    "upper_lux_hours": 0.0,
+    "year": 2026
+  },
+  {
+    "category": "handover",
+    "end": "2026-03-03T09:00:00",
+    "fact_id": "seg:012",
+    "handover_id": "h2",
+    "hours": 24.0,
+    "location": "h2",
+    "lower_lux": 0.0,
+    "lower_lux_hours": 0.0,
+    "reading_ids": [],
+    "start": "2026-03-02T09:00:00",
+    "upper_bound_supported": false,
+    "upper_lux": null,
+    "upper_lux_hours": null,
+    "year": 2026
+  },
+  {
+    "category": "measured",
+    "end": "2026-06-01T09:00:00",
+    "fact_id": "seg:013",
+    "handover_id": null,
+    "hours": 2160.0,
+    "location": "gallery-G",
+    "lower_lux": 30.0,
+    "lower_lux_hours": 64800.0,
+    "reading_ids": [
+      "r6"
+    ],
+    "start": "2026-03-03T09:00:00",
+    "upper_bound_supported": true,
+    "upper_lux": 30.0,
+    "upper_lux_hours": 64800.0,
+    "year": 2026
+  },
+  {
+    "category": "gap",
+    "end": "2026-09-01T09:00:00",
+    "fact_id": "seg:014",
+    "handover_id": null,
+    "hours": 2208.0,
+    "location": "gallery-G",
+    "lower_lux": 0.0,
+    "lower_lux_hours": 0.0,
+    "reading_ids": [],
+    "start": "2026-06-01T09:00:00",
+    "upper_bound_supported": false,
+    "upper_lux": null,
+    "upper_lux_hours": null,
+    "year": 2026
+  },
+  {
+    "category": "measured",
+    "end": "2026-11-10T09:00:00",
+    "fact_id": "seg:015",
+    "handover_id": null,
+    "hours": 1680.0,
+    "location": "gallery-G",
+    "lower_lux": 30.0,
+    "lower_lux_hours": 50400.0,
+    "reading_ids": [
+      "r7"
+    ],
+    "start": "2026-09-01T09:00:00",
+    "upper_bound_supported": true,
+    "upper_lux": 30.0,
+    "upper_lux_hours": 50400.0,
+    "year": 2026
+  },
+  {
+    "category": "gap",
+    "end": "2026-11-20T00:00:00",
+    "fact_id": "seg:016",
+    "handover_id": null,
+    "hours": 231.0,
+    "location": "gallery-G",
+    "lower_lux": 0.0,
+    "lower_lux_hours": 0.0,
+    "reading_ids": [],
+    "start": "2026-11-10T09:00:00",
+    "upper_bound_supported": false,
+    "upper_lux": null,
+    "upper_lux_hours": null,
+    "year": 2026
+  }
+]

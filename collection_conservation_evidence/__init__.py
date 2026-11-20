@@ -1,10 +1,18 @@
 """馆藏预防性保护"""
 
-from . import light_exposure, trap_activity, transport_shocks, material_coupons, humidity_response
+from . import (
+    light_exposure,
+    light_dose_audit,
+    trap_activity,
+    transport_shocks,
+    material_coupons,
+    humidity_response,
+)
 from .contract import Row
 
 PIPELINES = {
     "light-exposure": light_exposure.build_facts,
+    "light-dose-audit": light_dose_audit.build_facts,
     "trap-activity": trap_activity.build_facts,
     "transport-shocks": transport_shocks.build_facts,
     "material-coupons": material_coupons.build_facts,

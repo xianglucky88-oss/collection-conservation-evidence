@@ -1,0 +1,34 @@
+{
+  "object": "scroll-S",
+  "window_start": "2025-12-15T09:00",
+  "as_of": "2026-11-20T00:00",
+  "query_lux": 50,
+  "annual_quotas": {
+    "2025": 25000,
+    "2026": 200000
+  },
+  "locations": [
+    {"id": "case-C", "kind": "display", "max_lux": 120},
+    {"id": "vault-D", "kind": "dark"},
+    {"id": "gallery-G", "kind": "display"}
+  ],
+  "probes": [
+    {"id": "p1", "location": "case-C"},
+    {"id": "p2", "location": "case-C"},
+    {"id": "p3", "location": "vault-D"},
+    {"id": "p4", "location": "gallery-G"}
+  ],
+  "handovers": [
+    {"id": "h1", "from": "case-C", "to": "vault-D", "earliest": "2026-01-12T08:00", "latest": "2026-01-13T08:00"},
+    {"id": "h2", "from": "vault-D", "to": "gallery-G", "earliest": "2026-03-02T09:00", "latest": "2026-03-03T09:00"}
+  ],
+  "readings": [
+    {"id": "r1", "probe": "p1", "start": "2025-12-20T09:00", "end": "2025-12-24T17:00", "lux": 50},
+    {"id": "r4", "probe": "p2", "start": "2025-12-22T09:00", "end": "2025-12-23T09:00", "lux": 46},
+    {"id": "r2", "probe": "p1", "start": "2025-12-24T17:00", "end": "2026-01-12T08:00", "lux": 50},
+    {"id": "r3", "probe": "p1", "start": "2026-01-05T09:00", "end": "2026-01-06T09:00", "lux": 40, "corrects": "r2"},
+    {"id": "r5", "probe": "p3", "start": "2026-02-10T10:00", "end": "2026-02-10T12:00", "lux": 5},
+    {"id": "r6", "probe": "p4", "start": "2026-03-03T09:00", "end": "2026-06-01T09:00", "lux": 30},
+    {"id": "r7", "probe": "p4", "start": "2026-09-01T09:00", "end": "2026-11-10T09:00", "lux": 30}
+  ]
+}
