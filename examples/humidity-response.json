@@ -1,22 +1,167 @@
 {
+  "lower_rh_pct": 45,
+  "upper_rh_pct": 55,
+  "required_hold_minutes": 10,
+  "max_observation_gap_minutes": 6,
+  "required_positions": ["shelf-top", "shelf-middle", "shelf-bottom"],
   "records": [
     {
-      "id": "closing-1",
+      "id": "round-1",
       "case": "case-N",
+      "layout": "cabinet-A-double",
       "observations": [
-        {
-          "id": "rh-0",
-          "rh_pct": 65,
-          "minutes_after_close": 0
-        },
-        {
-          "id": "rh-15",
-          "rh_pct": 50,
-          "minutes_after_close": 15
-        }
+        {"id": "r1-top-0", "position": "shelf-top", "rh_pct": 65, "minutes_after_close": 0},
+        {"id": "r1-top-6", "position": "shelf-top", "rh_pct": 58, "minutes_after_close": 6},
+        {"id": "r1-top-12", "position": "shelf-top", "rh_pct": 52, "minutes_after_close": 12},
+        {"id": "r1-top-18", "position": "shelf-top", "rh_pct": 50, "minutes_after_close": 18},
+        {"id": "r1-top-24", "position": "shelf-top", "rh_pct": 49, "minutes_after_close": 24},
+        {"id": "r1-top-30", "position": "shelf-top", "rh_pct": 48, "minutes_after_close": 30},
+
+        {"id": "r1-mid-0", "position": "shelf-middle", "rh_pct": 64, "minutes_after_close": 0},
+        {"id": "r1-mid-6", "position": "shelf-middle", "rh_pct": 59, "minutes_after_close": 6},
+        {"id": "r1-mid-12", "position": "shelf-middle", "rh_pct": 57, "minutes_after_close": 12},
+        {"id": "r1-mid-18", "position": "shelf-middle", "rh_pct": 53, "minutes_after_close": 18},
+        {"id": "r1-mid-24", "position": "shelf-middle", "rh_pct": 52, "minutes_after_close": 24},
+        {"id": "r1-mid-30", "position": "shelf-middle", "rh_pct": 51, "minutes_after_close": 30},
+        {"id": "r1-mid-36", "position": "shelf-middle", "rh_pct": 50, "minutes_after_close": 36},
+
+        {"id": "r1-bot-0", "position": "shelf-bottom", "rh_pct": 68, "minutes_after_close": 0},
+        {"id": "r1-bot-6", "position": "shelf-bottom", "rh_pct": 64, "minutes_after_close": 6},
+        {"id": "r1-bot-12", "position": "shelf-bottom", "rh_pct": 60, "minutes_after_close": 12},
+        {"id": "r1-bot-18", "position": "shelf-bottom", "rh_pct": 57, "minutes_after_close": 18},
+        {"id": "r1-bot-24", "position": "shelf-bottom", "rh_pct": 53, "minutes_after_close": 24},
+        {"id": "r1-bot-30", "position": "shelf-bottom", "rh_pct": 50, "minutes_after_close": 30},
+        {"id": "r1-bot-36", "position": "shelf-bottom", "rh_pct": 49, "minutes_after_close": 36},
+
+        {"id": "r1-rear-0", "position": "shelf-rear", "rh_pct": 63, "minutes_after_close": 0},
+        {"id": "r1-rear-12", "position": "shelf-rear", "rh_pct": 54, "minutes_after_close": 12},
+        {"id": "r1-rear-18", "position": "shelf-rear", "rh_pct": 52, "minutes_after_close": 18},
+        {"id": "r1-rear-30", "position": "shelf-rear", "rh_pct": 50, "minutes_after_close": 30},
+        {"id": "r1-rear-36", "position": "shelf-rear", "rh_pct": 49, "minutes_after_close": 36}
+      ]
+    },
+    {
+      "id": "round-2",
+      "case": "case-N",
+      "layout": "cabinet-A-double",
+      "observations": [
+        {"id": "r2-top-0", "position": "shelf-top", "rh_pct": 63, "minutes_after_close": 0},
+        {"id": "r2-top-6", "position": "shelf-top", "rh_pct": 52, "minutes_after_close": 6},
+        {"id": "r2-top-12", "position": "shelf-top", "rh_pct": 60, "minutes_after_close": 12},
+        {"id": "r2-top-18", "position": "shelf-top", "rh_pct": 54, "minutes_after_close": 18},
+        {"id": "r2-top-24", "position": "shelf-top", "rh_pct": 51, "minutes_after_close": 24},
+        {"id": "r2-top-30", "position": "shelf-top", "rh_pct": 50, "minutes_after_close": 30},
+
+        {"id": "r2-mid-0", "position": "shelf-middle", "rh_pct": 61, "minutes_after_close": 0},
+        {"id": "r2-mid-6", "position": "shelf-middle", "rh_pct": 56, "minutes_after_close": 6},
+        {"id": "r2-mid-12", "position": "shelf-middle", "rh_pct": 54, "minutes_after_close": 12},
+        {"id": "r2-mid-18", "position": "shelf-middle", "rh_pct": 52, "minutes_after_close": 18},
+        {"id": "r2-mid-24", "position": "shelf-middle", "rh_pct": 50, "minutes_after_close": 24},
+        {"id": "r2-mid-30", "position": "shelf-middle", "rh_pct": 49, "minutes_after_close": 30},
+
+        {"id": "r2-bot-0", "position": "shelf-bottom", "rh_pct": 65, "minutes_after_close": 0},
+        {"id": "r2-bot-6", "position": "shelf-bottom", "rh_pct": 59, "minutes_after_close": 6},
+        {"id": "r2-bot-12", "position": "shelf-bottom", "rh_pct": 55, "minutes_after_close": 12},
+        {"id": "r2-bot-18", "position": "shelf-bottom", "rh_pct": 53, "minutes_after_close": 18},
+        {"id": "r2-bot-24", "position": "shelf-bottom", "rh_pct": 52, "minutes_after_close": 24},
+        {"id": "r2-bot-30", "position": "shelf-bottom", "rh_pct": 51, "minutes_after_close": 30}
+      ]
+    },
+    {
+      "id": "round-3",
+      "case": "case-P",
+      "layout": "cabinet-B-single",
+      "reopened_at_minutes": 40,
+      "observations": [
+        {"id": "r3-top-0", "position": "shelf-top", "rh_pct": 70, "minutes_after_close": 0},
+        {"id": "r3-top-6", "position": "shelf-top", "rh_pct": 63, "minutes_after_close": 6},
+        {"id": "r3-top-12", "position": "shelf-top", "rh_pct": 57, "minutes_after_close": 12},
+        {"id": "r3-top-18", "position": "shelf-top", "rh_pct": 53, "minutes_after_close": 18},
+        {"id": "r3-top-24", "position": "shelf-top", "rh_pct": 51, "minutes_after_close": 24},
+        {"id": "r3-top-30", "position": "shelf-top", "rh_pct": 50, "minutes_after_close": 30},
+
+        {"id": "r3-mid-0", "position": "shelf-middle", "rh_pct": 69, "minutes_after_close": 0},
+        {"id": "r3-mid-6", "position": "shelf-middle", "rh_pct": 62, "minutes_after_close": 6},
+        {"id": "r3-mid-12", "position": "shelf-middle", "rh_pct": 56, "minutes_after_close": 12},
+        {"id": "r3-mid-18", "position": "shelf-middle", "rh_pct": 52, "minutes_after_close": 18},
+        {"id": "r3-mid-24", "position": "shelf-middle", "rh_pct": 50, "minutes_after_close": 24},
+        {"id": "r3-mid-36", "position": "shelf-middle", "rh_pct": 56, "minutes_after_close": 36},
+
+        {"id": "r3-bot-0", "position": "shelf-bottom", "rh_pct": 72, "minutes_after_close": 0},
+        {"id": "r3-bot-6", "position": "shelf-bottom", "rh_pct": 68, "minutes_after_close": 6},
+        {"id": "r3-bot-12", "position": "shelf-bottom", "rh_pct": 63, "minutes_after_close": 12},
+        {"id": "r3-bot-18", "position": "shelf-bottom", "rh_pct": 59, "minutes_after_close": 18},
+        {"id": "r3-bot-24", "position": "shelf-bottom", "rh_pct": 56, "minutes_after_close": 24},
+        {"id": "r3-bot-30", "position": "shelf-bottom", "rh_pct": 54, "minutes_after_close": 30},
+        {"id": "r3-bot-36", "position": "shelf-bottom", "rh_pct": 53, "minutes_after_close": 36},
+
+        {"id": "r3-top-42", "position": "shelf-top", "rh_pct": 68, "minutes_after_close": 42},
+        {"id": "r3-mid-42", "position": "shelf-middle", "rh_pct": 67, "minutes_after_close": 42},
+        {"id": "r3-bot-42", "position": "shelf-bottom", "rh_pct": 66, "minutes_after_close": 42}
+      ]
+    },
+    {
+      "id": "round-4",
+      "case": "case-P",
+      "layout": "cabinet-B-single",
+      "observations": [
+        {"id": "r4-top-0", "position": "shelf-top", "rh_pct": 66, "minutes_after_close": 0},
+        {"id": "r4-top-6", "position": "shelf-top", "rh_pct": 59, "minutes_after_close": 6},
+        {"id": "r4-top-12", "position": "shelf-top", "rh_pct": 55, "minutes_after_close": 12},
+        {"id": "r4-top-18", "position": "shelf-top", "rh_pct": 52, "minutes_after_close": 18},
+        {"id": "r4-top-24", "position": "shelf-top", "rh_pct": 50, "minutes_after_close": 24},
+        {"id": "r4-top-30", "position": "shelf-top", "rh_pct": 49, "minutes_after_close": 30},
+
+        {"id": "r4-mid-0", "position": "shelf-middle", "rh_pct": 67, "minutes_after_close": 0},
+        {"id": "r4-mid-6", "position": "shelf-middle", "rh_pct": 61, "minutes_after_close": 6},
+        {"id": "r4-mid-12", "position": "shelf-middle", "rh_pct": 57, "minutes_after_close": 12},
+        {"id": "r4-mid-18", "position": "shelf-middle", "rh_pct": 55, "minutes_after_close": 18},
+        {"id": "r4-mid-24", "position": "shelf-middle", "rh_pct": 53, "minutes_after_close": 24},
+        {"id": "r4-mid-30", "position": "shelf-middle", "rh_pct": 51, "minutes_after_close": 30},
+        {"id": "r4-mid-36", "position": "shelf-middle", "rh_pct": 50, "minutes_after_close": 36},
+
+        {"id": "r4-bot-0", "position": "shelf-bottom", "rh_pct": 69, "minutes_after_close": 0},
+        {"id": "r4-bot-6", "position": "shelf-bottom", "rh_pct": 64, "minutes_after_close": 6},
+        {"id": "r4-bot-12", "position": "shelf-bottom", "rh_pct": 60, "minutes_after_close": 12},
+        {"id": "r4-bot-18", "position": "shelf-bottom", "rh_pct": 58, "minutes_after_close": 18},
+        {"id": "r4-bot-24", "position": "shelf-bottom", "rh_pct": 55, "minutes_after_close": 24},
+        {"id": "r4-bot-30", "position": "shelf-bottom", "rh_pct": 53, "minutes_after_close": 30},
+        {"id": "r4-bot-36", "position": "shelf-bottom", "rh_pct": 52, "minutes_after_close": 36},
+        {"id": "r4-bot-42", "position": "shelf-bottom", "rh_pct": 51, "minutes_after_close": 42}
+      ]
+    },
+    {
+      "id": "round-5",
+      "case": "case-Q",
+      "layout": "cabinet-C-wall",
+      "observations": [
+        {"id": "r5-top-0", "position": "shelf-top", "rh_pct": 70, "minutes_after_close": 0},
+        {"id": "r5-top-6", "position": "shelf-top", "rh_pct": 69, "minutes_after_close": 6},
+        {"id": "r5-top-12", "position": "shelf-top", "rh_pct": 68, "minutes_after_close": 12},
+        {"id": "r5-top-18", "position": "shelf-top", "rh_pct": 67, "minutes_after_close": 18},
+        {"id": "r5-top-24", "position": "shelf-top", "rh_pct": 66, "minutes_after_close": 24},
+        {"id": "r5-top-30", "position": "shelf-top", "rh_pct": 65, "minutes_after_close": 30},
+        {"id": "r5-top-36", "position": "shelf-top", "rh_pct": 64, "minutes_after_close": 36},
+        {"id": "r5-top-42", "position": "shelf-top", "rh_pct": 63, "minutes_after_close": 42},
+        {"id": "r5-top-48", "position": "shelf-top", "rh_pct": 62, "minutes_after_close": 48},
+        {"id": "r5-top-54", "position": "shelf-top", "rh_pct": 61, "minutes_after_close": 54},
+
+        {"id": "r5-bot-0", "position": "shelf-bottom", "rh_pct": 69, "minutes_after_close": 0},
+        {"id": "r5-bot-6", "position": "shelf-bottom", "rh_pct": 66, "minutes_after_close": 6},
+        {"id": "r5-bot-12", "position": "shelf-bottom", "rh_pct": 60, "minutes_after_close": 12},
+        {"id": "r5-bot-18", "position": "shelf-bottom", "rh_pct": 57, "minutes_after_close": 18},
+        {"id": "r5-bot-24", "position": "shelf-bottom", "rh_pct": 56, "minutes_after_close": 24},
+        {"id": "r5-bot-30", "position": "shelf-bottom", "rh_pct": 54, "minutes_after_close": 30},
+        {"id": "r5-bot-36", "position": "shelf-bottom", "rh_pct": 53, "minutes_after_close": 36},
+        {"id": "r5-bot-48", "position": "shelf-bottom", "rh_pct": 51, "minutes_after_close": 48},
+        {"id": "r5-bot-54", "position": "shelf-bottom", "rh_pct": 50, "minutes_after_close": 54},
+
+        {"id": "r5-rear-0", "position": "shelf-rear", "rh_pct": 69, "minutes_after_close": 0},
+        {"id": "r5-rear-6", "position": "shelf-rear", "rh_pct": 64, "minutes_after_close": 6},
+        {"id": "r5-rear-12", "position": "shelf-rear", "rh_pct": 58, "minutes_after_close": 12},
+        {"id": "r5-rear-18", "position": "shelf-rear", "rh_pct": 55, "minutes_after_close": 18},
+        {"id": "r5-rear-24", "position": "shelf-rear", "rh_pct": 54, "minutes_after_close": 24}
       ]
     }
-  ],
-  "lower_rh_pct": 45,
-  "upper_rh_pct": 55
+  ]
 }

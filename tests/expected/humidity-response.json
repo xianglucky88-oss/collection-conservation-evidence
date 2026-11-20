@@ -1,8 +1,783 @@
 [
   {
-    "fact_id": "closing-1",
     "case": "case-N",
-    "first_in_band_minutes": 15,
-    "observation": "rh-15"
+    "confirmed_required_position_count": 3,
+    "excluded_observation_ids": [],
+    "fact_id": "round-1",
+    "fact_type": "round",
+    "layout": "cabinet-A-double",
+    "max_observation_gap_minutes": 6.0,
+    "monitored_until_minutes": 36.0,
+    "positions": [
+      {
+        "finding": "confirmed_recovery",
+        "first_in_band_minutes": 12.0,
+        "first_in_band_was_transient": false,
+        "largest_observation_gap_minutes": 6.0,
+        "last_observation_minutes": 30.0,
+        "monitoring_ended_early": false,
+        "observation_count": 6,
+        "observation_gaps": [],
+        "position": "shelf-top",
+        "recovery_confirmed_by_minutes": 24.0,
+        "recovery_lower_bound_minutes": 6.0,
+        "recovery_minutes": 12.0,
+        "required": true,
+        "severed_in_band_runs": [],
+        "status": "confirmed",
+        "transient_in_band": [],
+        "unconfirmed_in_band_since_minutes": null
+      },
+      {
+        "finding": "confirmed_recovery",
+        "first_in_band_minutes": 18.0,
+        "first_in_band_was_transient": false,
+        "largest_observation_gap_minutes": 6.0,
+        "last_observation_minutes": 36.0,
+        "monitoring_ended_early": false,
+        "observation_count": 7,
+        "observation_gaps": [],
+        "position": "shelf-middle",
+        "recovery_confirmed_by_minutes": 30.0,
+        "recovery_lower_bound_minutes": 12.0,
+        "recovery_minutes": 18.0,
+        "required": true,
+        "severed_in_band_runs": [],
+        "status": "confirmed",
+        "transient_in_band": [],
+        "unconfirmed_in_band_since_minutes": null
+      },
+      {
+        "finding": "confirmed_recovery",
+        "first_in_band_minutes": 24.0,
+        "first_in_band_was_transient": false,
+        "largest_observation_gap_minutes": 6.0,
+        "last_observation_minutes": 36.0,
+        "monitoring_ended_early": false,
+        "observation_count": 7,
+        "observation_gaps": [],
+        "position": "shelf-bottom",
+        "recovery_confirmed_by_minutes": 36.0,
+        "recovery_lower_bound_minutes": 18.0,
+        "recovery_minutes": 24.0,
+        "required": true,
+        "severed_in_band_runs": [],
+        "status": "confirmed",
+        "transient_in_band": [],
+        "unconfirmed_in_band_since_minutes": null
+      },
+      {
+        "finding": "hold_not_met_at_end_of_monitoring",
+        "first_in_band_minutes": 12.0,
+        "first_in_band_was_transient": false,
+        "largest_observation_gap_minutes": 12.0,
+        "last_observation_minutes": 36.0,
+        "monitoring_ended_early": false,
+        "observation_count": 5,
+        "observation_gaps": [
+          {
+            "from_minutes": 0.0,
+            "gap_minutes": 12.0,
+            "to_minutes": 12.0
+          },
+          {
+            "from_minutes": 18.0,
+            "gap_minutes": 12.0,
+            "to_minutes": 30.0
+          }
+        ],
+        "position": "shelf-rear",
+        "recovery_confirmed_by_minutes": null,
+        "recovery_lower_bound_minutes": 0.0,
+        "recovery_minutes": null,
+        "required": false,
+        "severed_in_band_runs": [
+          {
+            "entered_minutes": 12.0,
+            "last_in_band_minutes": 18.0,
+            "next_observation_minutes": 30.0,
+            "observed_in_band_minutes": 6.0
+          }
+        ],
+        "status": "unconfirmed",
+        "transient_in_band": [],
+        "unconfirmed_in_band_since_minutes": 30.0
+      }
+    ],
+    "recovery_minutes": 24.0,
+    "reopened_at_minutes": null,
+    "required_hold_minutes": 10.0,
+    "required_positions": [
+      "shelf-top",
+      "shelf-middle",
+      "shelf-bottom"
+    ],
+    "round_conclusion": "complete",
+    "round_status": "complete",
+    "slowest_position": "shelf-bottom",
+    "unconfirmed_required_positions": [],
+    "unmonitored_required_positions": []
+  },
+  {
+    "case": "case-N",
+    "confirmed_required_position_count": 3,
+    "excluded_observation_ids": [],
+    "fact_id": "round-2",
+    "fact_type": "round",
+    "layout": "cabinet-A-double",
+    "max_observation_gap_minutes": 6.0,
+    "monitored_until_minutes": 30.0,
+    "positions": [
+      {
+        "finding": "confirmed_recovery",
+        "first_in_band_minutes": 6.0,
+        "first_in_band_was_transient": true,
+        "largest_observation_gap_minutes": 6.0,
+        "last_observation_minutes": 30.0,
+        "monitoring_ended_early": false,
+        "observation_count": 6,
+        "observation_gaps": [],
+        "position": "shelf-top",
+        "recovery_confirmed_by_minutes": 30.0,
+        "recovery_lower_bound_minutes": 12.0,
+        "recovery_minutes": 18.0,
+        "required": true,
+        "severed_in_band_runs": [],
+        "status": "confirmed",
+        "transient_in_band": [
+          {
+            "entered_minutes": 6.0,
+            "last_in_band_minutes": 6.0,
+            "left_band_at_minutes": 12.0,
+            "observed_in_band_minutes": 0.0
+          }
+        ],
+        "unconfirmed_in_band_since_minutes": null
+      },
+      {
+        "finding": "confirmed_recovery",
+        "first_in_band_minutes": 12.0,
+        "first_in_band_was_transient": false,
+        "largest_observation_gap_minutes": 6.0,
+        "last_observation_minutes": 30.0,
+        "monitoring_ended_early": false,
+        "observation_count": 6,
+        "observation_gaps": [],
+        "position": "shelf-middle",
+        "recovery_confirmed_by_minutes": 24.0,
+        "recovery_lower_bound_minutes": 6.0,
+        "recovery_minutes": 12.0,
+        "required": true,
+        "severed_in_band_runs": [],
+        "status": "confirmed",
+        "transient_in_band": [],
+        "unconfirmed_in_band_since_minutes": null
+      },
+      {
+        "finding": "confirmed_recovery",
+        "first_in_band_minutes": 12.0,
+        "first_in_band_was_transient": false,
+        "largest_observation_gap_minutes": 6.0,
+        "last_observation_minutes": 30.0,
+        "monitoring_ended_early": false,
+        "observation_count": 6,
+        "observation_gaps": [],
+        "position": "shelf-bottom",
+        "recovery_confirmed_by_minutes": 24.0,
+        "recovery_lower_bound_minutes": 6.0,
+        "recovery_minutes": 12.0,
+        "required": true,
+        "severed_in_band_runs": [],
+        "status": "confirmed",
+        "transient_in_band": [],
+        "unconfirmed_in_band_since_minutes": null
+      }
+    ],
+    "recovery_minutes": 18.0,
+    "reopened_at_minutes": null,
+    "required_hold_minutes": 10.0,
+    "required_positions": [
+      "shelf-top",
+      "shelf-middle",
+      "shelf-bottom"
+    ],
+    "round_conclusion": "complete",
+    "round_status": "complete",
+    "slowest_position": "shelf-top",
+    "unconfirmed_required_positions": [],
+    "unmonitored_required_positions": []
+  },
+  {
+    "case": "case-P",
+    "confirmed_required_position_count": 1,
+    "excluded_observation_ids": [
+      "r3-top-42",
+      "r3-mid-42",
+      "r3-bot-42"
+    ],
+    "fact_id": "round-3",
+    "fact_type": "round",
+    "layout": "cabinet-B-single",
+    "max_observation_gap_minutes": 6.0,
+    "monitored_until_minutes": 40.0,
+    "positions": [
+      {
+        "finding": "confirmed_recovery",
+        "first_in_band_minutes": 18.0,
+        "first_in_band_was_transient": false,
+        "largest_observation_gap_minutes": 6.0,
+        "last_observation_minutes": 30.0,
+        "monitoring_ended_early": true,
+        "observation_count": 6,
+        "observation_gaps": [],
+        "position": "shelf-top",
+        "recovery_confirmed_by_minutes": 30.0,
+        "recovery_lower_bound_minutes": 12.0,
+        "recovery_minutes": 18.0,
+        "required": true,
+        "severed_in_band_runs": [],
+        "status": "confirmed",
+        "transient_in_band": [],
+        "unconfirmed_in_band_since_minutes": null
+      },
+      {
+        "finding": "outside_band_at_last_observation",
+        "first_in_band_minutes": 18.0,
+        "first_in_band_was_transient": true,
+        "largest_observation_gap_minutes": 12.0,
+        "last_observation_minutes": 36.0,
+        "monitoring_ended_early": false,
+        "observation_count": 6,
+        "observation_gaps": [
+          {
+            "from_minutes": 24.0,
+            "gap_minutes": 12.0,
+            "to_minutes": 36.0
+          }
+        ],
+        "position": "shelf-middle",
+        "recovery_confirmed_by_minutes": null,
+        "recovery_lower_bound_minutes": 36.0,
+        "recovery_minutes": null,
+        "required": true,
+        "severed_in_band_runs": [],
+        "status": "unconfirmed",
+        "transient_in_band": [
+          {
+            "entered_minutes": 18.0,
+            "last_in_band_minutes": 24.0,
+            "left_band_at_minutes": 36.0,
+            "observed_in_band_minutes": 6.0
+          }
+        ],
+        "unconfirmed_in_band_since_minutes": null
+      },
+      {
+        "finding": "interrupted_before_hold_met",
+        "first_in_band_minutes": 30.0,
+        "first_in_band_was_transient": false,
+        "largest_observation_gap_minutes": 6.0,
+        "last_observation_minutes": 36.0,
+        "monitoring_ended_early": false,
+        "observation_count": 7,
+        "observation_gaps": [],
+        "position": "shelf-bottom",
+        "recovery_confirmed_by_minutes": null,
+        "recovery_lower_bound_minutes": 24.0,
+        "recovery_minutes": null,
+        "required": true,
+        "severed_in_band_runs": [],
+        "status": "unconfirmed",
+        "transient_in_band": [],
+        "unconfirmed_in_band_since_minutes": 30.0
+      }
+    ],
+    "recovery_minutes": null,
+    "reopened_at_minutes": 40.0,
+    "required_hold_minutes": 10.0,
+    "required_positions": [
+      "shelf-top",
+      "shelf-middle",
+      "shelf-bottom"
+    ],
+    "round_conclusion": "incomplete_at_reopening",
+    "round_status": "incomplete",
+    "slowest_position": null,
+    "unconfirmed_required_positions": [
+      "shelf-middle",
+      "shelf-bottom"
+    ],
+    "unmonitored_required_positions": []
+  },
+  {
+    "case": "case-P",
+    "confirmed_required_position_count": 3,
+    "excluded_observation_ids": [],
+    "fact_id": "round-4",
+    "fact_type": "round",
+    "layout": "cabinet-B-single",
+    "max_observation_gap_minutes": 6.0,
+    "monitored_until_minutes": 42.0,
+    "positions": [
+      {
+        "finding": "confirmed_recovery",
+        "first_in_band_minutes": 12.0,
+        "first_in_band_was_transient": false,
+        "largest_observation_gap_minutes": 6.0,
+        "last_observation_minutes": 30.0,
+        "monitoring_ended_early": true,
+        "observation_count": 6,
+        "observation_gaps": [],
+        "position": "shelf-top",
+        "recovery_confirmed_by_minutes": 24.0,
+        "recovery_lower_bound_minutes": 6.0,
+        "recovery_minutes": 12.0,
+        "required": true,
+        "severed_in_band_runs": [],
+        "status": "confirmed",
+        "transient_in_band": [],
+        "unconfirmed_in_band_since_minutes": null
+      },
+      {
+        "finding": "confirmed_recovery",
+        "first_in_band_minutes": 18.0,
+        "first_in_band_was_transient": false,
+        "largest_observation_gap_minutes": 6.0,
+        "last_observation_minutes": 36.0,
+        "monitoring_ended_early": false,
+        "observation_count": 7,
+        "observation_gaps": [],
+        "position": "shelf-middle",
+        "recovery_confirmed_by_minutes": 30.0,
+        "recovery_lower_bound_minutes": 12.0,
+        "recovery_minutes": 18.0,
+        "required": true,
+        "severed_in_band_runs": [],
+        "status": "confirmed",
+        "transient_in_band": [],
+        "unconfirmed_in_band_since_minutes": null
+      },
+      {
+        "finding": "confirmed_recovery",
+        "first_in_band_minutes": 24.0,
+        "first_in_band_was_transient": false,
+        "largest_observation_gap_minutes": 6.0,
+        "last_observation_minutes": 42.0,
+        "monitoring_ended_early": false,
+        "observation_count": 8,
+        "observation_gaps": [],
+        "position": "shelf-bottom",
+        "recovery_confirmed_by_minutes": 36.0,
+        "recovery_lower_bound_minutes": 18.0,
+        "recovery_minutes": 24.0,
+        "required": true,
+        "severed_in_band_runs": [],
+        "status": "confirmed",
+        "transient_in_band": [],
+        "unconfirmed_in_band_since_minutes": null
+      }
+    ],
+    "recovery_minutes": 24.0,
+    "reopened_at_minutes": null,
+    "required_hold_minutes": 10.0,
+    "required_positions": [
+      "shelf-top",
+      "shelf-middle",
+      "shelf-bottom"
+    ],
+    "round_conclusion": "complete",
+    "round_status": "complete",
+    "slowest_position": "shelf-bottom",
+    "unconfirmed_required_positions": [],
+    "unmonitored_required_positions": []
+  },
+  {
+    "case": "case-Q",
+    "confirmed_required_position_count": 0,
+    "excluded_observation_ids": [],
+    "fact_id": "round-5",
+    "fact_type": "round",
+    "layout": "cabinet-C-wall",
+    "max_observation_gap_minutes": 6.0,
+    "monitored_until_minutes": 54.0,
+    "positions": [
+      {
+        "finding": "never_in_band",
+        "first_in_band_minutes": null,
+        "first_in_band_was_transient": false,
+        "largest_observation_gap_minutes": 6.0,
+        "last_observation_minutes": 54.0,
+        "monitoring_ended_early": false,
+        "observation_count": 10,
+        "observation_gaps": [],
+        "position": "shelf-top",
+        "recovery_confirmed_by_minutes": null,
+        "recovery_lower_bound_minutes": 54.0,
+        "recovery_minutes": null,
+        "required": true,
+        "severed_in_band_runs": [],
+        "status": "unconfirmed",
+        "transient_in_band": [],
+        "unconfirmed_in_band_since_minutes": null
+      },
+      {
+        "finding": "no_observations",
+        "first_in_band_minutes": null,
+        "first_in_band_was_transient": false,
+        "largest_observation_gap_minutes": null,
+        "last_observation_minutes": null,
+        "monitoring_ended_early": false,
+        "observation_count": 0,
+        "observation_gaps": [],
+        "position": "shelf-middle",
+        "recovery_confirmed_by_minutes": null,
+        "recovery_lower_bound_minutes": null,
+        "recovery_minutes": null,
+        "required": true,
+        "severed_in_band_runs": [],
+        "status": "unmonitored",
+        "transient_in_band": [],
+        "unconfirmed_in_band_since_minutes": null
+      },
+      {
+        "finding": "hold_not_met_at_end_of_monitoring",
+        "first_in_band_minutes": 30.0,
+        "first_in_band_was_transient": false,
+        "largest_observation_gap_minutes": 12.0,
+        "last_observation_minutes": 54.0,
+        "monitoring_ended_early": false,
+        "observation_count": 9,
+        "observation_gaps": [
+          {
+            "from_minutes": 36.0,
+            "gap_minutes": 12.0,
+            "to_minutes": 48.0
+          }
+        ],
+        "position": "shelf-bottom",
+        "recovery_confirmed_by_minutes": null,
+        "recovery_lower_bound_minutes": 24.0,
+        "recovery_minutes": null,
+        "required": true,
+        "severed_in_band_runs": [
+          {
+            "entered_minutes": 30.0,
+            "last_in_band_minutes": 36.0,
+            "next_observation_minutes": 48.0,
+            "observed_in_band_minutes": 6.0
+          }
+        ],
+        "status": "unconfirmed",
+        "transient_in_band": [],
+        "unconfirmed_in_band_since_minutes": 48.0
+      },
+      {
+        "finding": "monitoring_lost_during_candidate_stretch",
+        "first_in_band_minutes": 18.0,
+        "first_in_band_was_transient": false,
+        "largest_observation_gap_minutes": 6.0,
+        "last_observation_minutes": 24.0,
+        "monitoring_ended_early": true,
+        "observation_count": 5,
+        "observation_gaps": [],
+        "position": "shelf-rear",
+        "recovery_confirmed_by_minutes": null,
+        "recovery_lower_bound_minutes": 12.0,
+        "recovery_minutes": null,
+        "required": false,
+        "severed_in_band_runs": [],
+        "status": "unconfirmed",
+        "transient_in_band": [],
+        "unconfirmed_in_band_since_minutes": 18.0
+      }
+    ],
+    "recovery_minutes": null,
+    "reopened_at_minutes": null,
+    "required_hold_minutes": 10.0,
+    "required_positions": [
+      "shelf-top",
+      "shelf-middle",
+      "shelf-bottom"
+    ],
+    "round_conclusion": "incomplete",
+    "round_status": "incomplete",
+    "slowest_position": null,
+    "unconfirmed_required_positions": [
+      "shelf-top",
+      "shelf-middle",
+      "shelf-bottom"
+    ],
+    "unmonitored_required_positions": [
+      "shelf-middle"
+    ]
+  },
+  {
+    "cases": [
+      "case-N"
+    ],
+    "complete_round_ids": [
+      "round-1",
+      "round-2"
+    ],
+    "fact_id": "layout:cabinet-A-double",
+    "fact_type": "layout",
+    "incomplete_round_ids": [],
+    "layout": "cabinet-A-double",
+    "planning_blocked_by_positions": [],
+    "planning_blocked_by_round_ids": [],
+    "planning_confirmed_by_minutes": 36.0,
+    "planning_ready": true,
+    "planning_recovery_minutes": 24.0,
+    "positions": [
+      {
+        "confirmed_round_ids": [
+          "round-1",
+          "round-2"
+        ],
+        "fastest_confirmed_minutes": 12.0,
+        "position": "shelf-top",
+        "slowest_confirmed_minutes": 18.0,
+        "unconfirmed_round_ids": []
+      },
+      {
+        "confirmed_round_ids": [
+          "round-1",
+          "round-2"
+        ],
+        "fastest_confirmed_minutes": 12.0,
+        "position": "shelf-middle",
+        "slowest_confirmed_minutes": 18.0,
+        "unconfirmed_round_ids": []
+      },
+      {
+        "confirmed_round_ids": [
+          "round-1",
+          "round-2"
+        ],
+        "fastest_confirmed_minutes": 12.0,
+        "position": "shelf-bottom",
+        "slowest_confirmed_minutes": 24.0,
+        "unconfirmed_round_ids": []
+      }
+    ],
+    "recovery_floor_minutes": 24.0,
+    "recovery_range_minutes": {
+      "fastest": 12.0,
+      "slowest": 24.0
+    },
+    "reopened_round_ids": [],
+    "round_count": 2,
+    "round_ids": [
+      "round-1",
+      "round-2"
+    ],
+    "rounds_without_any_confirmed_recovery": [],
+    "slowest_confirmed_recovery_minutes": 24.0,
+    "slowest_evidenced_positions": [
+      {
+        "position": "shelf-bottom",
+        "recovery_confirmed_by_minutes": 36.0,
+        "recovery_minutes": 24.0,
+        "round_id": "round-1"
+      }
+    ],
+    "unresolved_positions": []
+  },
+  {
+    "cases": [
+      "case-P"
+    ],
+    "complete_round_ids": [
+      "round-4"
+    ],
+    "fact_id": "layout:cabinet-B-single",
+    "fact_type": "layout",
+    "incomplete_round_ids": [
+      "round-3"
+    ],
+    "layout": "cabinet-B-single",
+    "planning_blocked_by_positions": [
+      "shelf-bottom",
+      "shelf-middle"
+    ],
+    "planning_blocked_by_round_ids": [
+      "round-3"
+    ],
+    "planning_confirmed_by_minutes": null,
+    "planning_ready": false,
+    "planning_recovery_minutes": null,
+    "positions": [
+      {
+        "confirmed_round_ids": [
+          "round-3",
+          "round-4"
+        ],
+        "fastest_confirmed_minutes": 12.0,
+        "position": "shelf-top",
+        "slowest_confirmed_minutes": 18.0,
+        "unconfirmed_round_ids": []
+      },
+      {
+        "confirmed_round_ids": [
+          "round-4"
+        ],
+        "fastest_confirmed_minutes": 18.0,
+        "position": "shelf-middle",
+        "slowest_confirmed_minutes": 18.0,
+        "unconfirmed_round_ids": [
+          "round-3"
+        ]
+      },
+      {
+        "confirmed_round_ids": [
+          "round-4"
+        ],
+        "fastest_confirmed_minutes": 24.0,
+        "position": "shelf-bottom",
+        "slowest_confirmed_minutes": 24.0,
+        "unconfirmed_round_ids": [
+          "round-3"
+        ]
+      }
+    ],
+    "recovery_floor_minutes": 36.0,
+    "recovery_range_minutes": {
+      "fastest": 12.0,
+      "slowest": 24.0
+    },
+    "reopened_round_ids": [
+      "round-3"
+    ],
+    "round_count": 2,
+    "round_ids": [
+      "round-3",
+      "round-4"
+    ],
+    "rounds_without_any_confirmed_recovery": [],
+    "slowest_confirmed_recovery_minutes": 24.0,
+    "slowest_evidenced_positions": [
+      {
+        "position": "shelf-bottom",
+        "recovery_confirmed_by_minutes": 36.0,
+        "recovery_minutes": 24.0,
+        "round_id": "round-4"
+      }
+    ],
+    "unresolved_positions": [
+      {
+        "finding": "outside_band_at_last_observation",
+        "monitoring_ended_early": false,
+        "position": "shelf-middle",
+        "recovery_lower_bound_minutes": 36.0,
+        "round_id": "round-3",
+        "status": "unconfirmed",
+        "unconfirmed_in_band_since_minutes": null
+      },
+      {
+        "finding": "interrupted_before_hold_met",
+        "monitoring_ended_early": false,
+        "position": "shelf-bottom",
+        "recovery_lower_bound_minutes": 24.0,
+        "round_id": "round-3",
+        "status": "unconfirmed",
+        "unconfirmed_in_band_since_minutes": 30.0
+      }
+    ]
+  },
+  {
+    "cases": [
+      "case-Q"
+    ],
+    "complete_round_ids": [],
+    "fact_id": "layout:cabinet-C-wall",
+    "fact_type": "layout",
+    "incomplete_round_ids": [
+      "round-5"
+    ],
+    "layout": "cabinet-C-wall",
+    "planning_blocked_by_positions": [
+      "shelf-bottom",
+      "shelf-middle",
+      "shelf-top"
+    ],
+    "planning_blocked_by_round_ids": [
+      "round-5"
+    ],
+    "planning_confirmed_by_minutes": null,
+    "planning_ready": false,
+    "planning_recovery_minutes": null,
+    "positions": [
+      {
+        "confirmed_round_ids": [],
+        "fastest_confirmed_minutes": null,
+        "position": "shelf-top",
+        "slowest_confirmed_minutes": null,
+        "unconfirmed_round_ids": [
+          "round-5"
+        ]
+      },
+      {
+        "confirmed_round_ids": [],
+        "fastest_confirmed_minutes": null,
+        "position": "shelf-middle",
+        "slowest_confirmed_minutes": null,
+        "unconfirmed_round_ids": [
+          "round-5"
+        ]
+      },
+      {
+        "confirmed_round_ids": [],
+        "fastest_confirmed_minutes": null,
+        "position": "shelf-bottom",
+        "slowest_confirmed_minutes": null,
+        "unconfirmed_round_ids": [
+          "round-5"
+        ]
+      }
+    ],
+    "recovery_floor_minutes": 54.0,
+    "recovery_range_minutes": {
+      "fastest": null,
+      "slowest": null
+    },
+    "reopened_round_ids": [],
+    "round_count": 1,
+    "round_ids": [
+      "round-5"
+    ],
+    "rounds_without_any_confirmed_recovery": [
+      "round-5"
+    ],
+    "slowest_confirmed_recovery_minutes": null,
+    "slowest_evidenced_positions": [],
+    "unresolved_positions": [
+      {
+        "finding": "never_in_band",
+        "monitoring_ended_early": false,
+        "position": "shelf-top",
+        "recovery_lower_bound_minutes": 54.0,
+        "round_id": "round-5",
+        "status": "unconfirmed",
+        "unconfirmed_in_band_since_minutes": null
+      },
+      {
+        "finding": "no_observations",
+        "monitoring_ended_early": false,
+        "position": "shelf-middle",
+        "recovery_lower_bound_minutes": null,
+        "round_id": "round-5",
+        "status": "unmonitored",
+        "unconfirmed_in_band_since_minutes": null
+      },
+      {
+        "finding": "hold_not_met_at_end_of_monitoring",
+        "monitoring_ended_early": false,
+        "position": "shelf-bottom",
+        "recovery_lower_bound_minutes": 24.0,
+        "round_id": "round-5",
+        "status": "unconfirmed",
+        "unconfirmed_in_band_since_minutes": 48.0
+      }
+    ]
   }
 ]
