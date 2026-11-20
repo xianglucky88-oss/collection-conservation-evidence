@@ -1,0 +1,3108 @@
+[
+  {
+    "fact_id": "baseline|control|2026-04-01/2026-06-30|copper",
+    "scenario": "baseline",
+    "scenario_kind": "baseline",
+    "amendment": null,
+    "scope": "control",
+    "exposure_period": "2026-04-01/2026-06-30",
+    "metal": "copper",
+    "status": "control_available",
+    "container_count": 2,
+    "coupon_count": 2,
+    "valid_record_count": 2,
+    "median_change": 0.0,
+    "comparable_above_visual_limit_count": 0,
+    "excluded_above_visual_limit_count": 0,
+    "container_ids": [
+      "P1-C1",
+      "P1-C2"
+    ],
+    "invalidated_container_ids": [],
+    "container_details": [
+      {
+        "container": "P1-C1",
+        "median_change": 0,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P1-C1-c1",
+            "pre_grade": 0,
+            "post_grade": 0,
+            "change": 0
+          }
+        ]
+      },
+      {
+        "container": "P1-C2",
+        "median_change": 0,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P1-C2-c1",
+            "pre_grade": 0,
+            "post_grade": 0,
+            "change": 0
+          }
+        ]
+      }
+    ],
+    "excluded_coupons": []
+  },
+  {
+    "fact_id": "baseline|control|2026-04-01/2026-06-30|silver",
+    "scenario": "baseline",
+    "scenario_kind": "baseline",
+    "amendment": null,
+    "scope": "control",
+    "exposure_period": "2026-04-01/2026-06-30",
+    "metal": "silver",
+    "status": "control_available",
+    "container_count": 2,
+    "coupon_count": 2,
+    "valid_record_count": 2,
+    "median_change": 0.0,
+    "comparable_above_visual_limit_count": 0,
+    "excluded_above_visual_limit_count": 0,
+    "container_ids": [
+      "P1-C1",
+      "P1-C2"
+    ],
+    "invalidated_container_ids": [],
+    "container_details": [
+      {
+        "container": "P1-C1",
+        "median_change": 0,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P1-C1-s1",
+            "pre_grade": 0,
+            "post_grade": 0,
+            "change": 0
+          }
+        ]
+      },
+      {
+        "container": "P1-C2",
+        "median_change": 0,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P1-C2-s1",
+            "pre_grade": 0,
+            "post_grade": 0,
+            "change": 0
+          }
+        ]
+      }
+    ],
+    "excluded_coupons": []
+  },
+  {
+    "fact_id": "baseline|control|2026-07-01/2026-09-30|copper",
+    "scenario": "baseline",
+    "scenario_kind": "baseline",
+    "amendment": null,
+    "scope": "control",
+    "exposure_period": "2026-07-01/2026-09-30",
+    "metal": "copper",
+    "status": "control_available",
+    "container_count": 2,
+    "coupon_count": 2,
+    "valid_record_count": 2,
+    "median_change": 0.5,
+    "comparable_above_visual_limit_count": 0,
+    "excluded_above_visual_limit_count": 0,
+    "container_ids": [
+      "P2-C1",
+      "P2-C2"
+    ],
+    "invalidated_container_ids": [],
+    "container_details": [
+      {
+        "container": "P2-C1",
+        "median_change": 0,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P2-C1-c1",
+            "pre_grade": 0,
+            "post_grade": 0,
+            "change": 0
+          }
+        ]
+      },
+      {
+        "container": "P2-C2",
+        "median_change": 1,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P2-C2-c1",
+            "pre_grade": 0,
+            "post_grade": 1,
+            "change": 1
+          }
+        ]
+      }
+    ],
+    "excluded_coupons": []
+  },
+  {
+    "fact_id": "baseline|control|2026-07-01/2026-09-30|silver",
+    "scenario": "baseline",
+    "scenario_kind": "baseline",
+    "amendment": null,
+    "scope": "control",
+    "exposure_period": "2026-07-01/2026-09-30",
+    "metal": "silver",
+    "status": "control_available",
+    "container_count": 2,
+    "coupon_count": 2,
+    "valid_record_count": 2,
+    "median_change": 0.5,
+    "comparable_above_visual_limit_count": 0,
+    "excluded_above_visual_limit_count": 0,
+    "container_ids": [
+      "P2-C1",
+      "P2-C2"
+    ],
+    "invalidated_container_ids": [],
+    "container_details": [
+      {
+        "container": "P2-C1",
+        "median_change": 0,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P2-C1-s1",
+            "pre_grade": 0,
+            "post_grade": 0,
+            "change": 0
+          }
+        ]
+      },
+      {
+        "container": "P2-C2",
+        "median_change": 1,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P2-C2-s1",
+            "pre_grade": 0,
+            "post_grade": 1,
+            "change": 1
+          }
+        ]
+      }
+    ],
+    "excluded_coupons": []
+  },
+  {
+    "fact_id": "baseline|combination|2026-04-01/2026-06-30|copper|adhesive-B+liner-A",
+    "scenario": "baseline",
+    "scenario_kind": "baseline",
+    "amendment": null,
+    "scope": "combination",
+    "exposure_period": "2026-04-01/2026-06-30",
+    "metal": "copper",
+    "combination": [
+      "adhesive-B",
+      "liner-A"
+    ],
+    "container_count": 2,
+    "valid_container_count": 2,
+    "coupon_count": 2,
+    "valid_record_count": 2,
+    "treatment_median_change": 0.5,
+    "control_median_change": 0.0,
+    "control_container_count": 2,
+    "relative_change": 0.5,
+    "direction": "no_change",
+    "status": "evaluated",
+    "comparable_above_visual_limit_count": 0,
+    "excluded_above_visual_limit_count": 0,
+    "container_ids": [
+      "P1-LA1",
+      "P1-LA2"
+    ],
+    "container_details": [
+      {
+        "container": "P1-LA1",
+        "median_change": 0,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P1-LA1-c1",
+            "pre_grade": 0,
+            "post_grade": 0,
+            "change": 0
+          }
+        ]
+      },
+      {
+        "container": "P1-LA2",
+        "median_change": 1,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P1-LA2-c1",
+            "pre_grade": 0,
+            "post_grade": 1,
+            "change": 1
+          }
+        ]
+      }
+    ],
+    "excluded_coupons": []
+  },
+  {
+    "fact_id": "baseline|combination|2026-04-01/2026-06-30|silver|adhesive-B+liner-A",
+    "scenario": "baseline",
+    "scenario_kind": "baseline",
+    "amendment": null,
+    "scope": "combination",
+    "exposure_period": "2026-04-01/2026-06-30",
+    "metal": "silver",
+    "combination": [
+      "adhesive-B",
+      "liner-A"
+    ],
+    "container_count": 2,
+    "valid_container_count": 2,
+    "coupon_count": 5,
+    "valid_record_count": 2,
+    "treatment_median_change": 2.0,
+    "control_median_change": 0.0,
+    "control_container_count": 2,
+    "relative_change": 2.0,
+    "direction": "increase",
+    "status": "evaluated",
+    "comparable_above_visual_limit_count": 2,
+    "excluded_above_visual_limit_count": 3,
+    "container_ids": [
+      "P1-LA1",
+      "P1-LA2"
+    ],
+    "container_details": [
+      {
+        "container": "P1-LA1",
+        "median_change": 2,
+        "included_coupon_count": 1,
+        "coupon_count": 3,
+        "coupons": [
+          {
+            "coupon": "P1-LA1-s1",
+            "pre_grade": 0,
+            "post_grade": 2,
+            "change": null
+          },
+          {
+            "coupon": "P1-LA1-s2",
+            "pre_grade": 0,
+            "post_grade": 2,
+            "change": 2
+          },
+          {
+            "coupon": "P1-LA1-s3",
+            "pre_grade": 0,
+            "post_grade": 3,
+            "change": null
+          }
+        ]
+      },
+      {
+        "container": "P1-LA2",
+        "median_change": 2,
+        "included_coupon_count": 1,
+        "coupon_count": 2,
+        "coupons": [
+          {
+            "coupon": "P1-LA2-s1",
+            "pre_grade": 0,
+            "post_grade": 2,
+            "change": 2
+          },
+          {
+            "coupon": "P1-LA2-s2",
+            "pre_grade": 0,
+            "post_grade": 3,
+            "change": null
+          }
+        ]
+      }
+    ],
+    "excluded_coupons": [
+      {
+        "container": "P1-LA1",
+        "coupon": "P1-LA1-s1",
+        "pre_grade": 0,
+        "post_grade": 2,
+        "change": null,
+        "reason": "pre_existing_blemish"
+      },
+      {
+        "container": "P1-LA1",
+        "coupon": "P1-LA1-s3",
+        "pre_grade": 0,
+        "post_grade": 3,
+        "change": null,
+        "reason": "pre_existing_blemish"
+      },
+      {
+        "container": "P1-LA2",
+        "coupon": "P1-LA2-s2",
+        "pre_grade": 0,
+        "post_grade": 3,
+        "change": null,
+        "reason": "pre_existing_blemish"
+      }
+    ]
+  },
+  {
+    "fact_id": "baseline|combination|2026-04-01/2026-06-30|copper|liner-A",
+    "scenario": "baseline",
+    "scenario_kind": "baseline",
+    "amendment": null,
+    "scope": "combination",
+    "exposure_period": "2026-04-01/2026-06-30",
+    "metal": "copper",
+    "combination": [
+      "liner-A"
+    ],
+    "container_count": 2,
+    "valid_container_count": 2,
+    "coupon_count": 2,
+    "valid_record_count": 2,
+    "treatment_median_change": 0.0,
+    "control_median_change": 0.0,
+    "control_container_count": 2,
+    "relative_change": 0.0,
+    "direction": "no_change",
+    "status": "evaluated",
+    "comparable_above_visual_limit_count": 0,
+    "excluded_above_visual_limit_count": 0,
+    "container_ids": [
+      "P1-L1",
+      "P1-L2"
+    ],
+    "container_details": [
+      {
+        "container": "P1-L1",
+        "median_change": 0,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P1-L1-c1",
+            "pre_grade": 0,
+            "post_grade": 0,
+            "change": 0
+          }
+        ]
+      },
+      {
+        "container": "P1-L2",
+        "median_change": 0,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P1-L2-c1",
+            "pre_grade": 0,
+            "post_grade": 0,
+            "change": 0
+          }
+        ]
+      }
+    ],
+    "excluded_coupons": []
+  },
+  {
+    "fact_id": "baseline|combination|2026-04-01/2026-06-30|silver|liner-A",
+    "scenario": "baseline",
+    "scenario_kind": "baseline",
+    "amendment": null,
+    "scope": "combination",
+    "exposure_period": "2026-04-01/2026-06-30",
+    "metal": "silver",
+    "combination": [
+      "liner-A"
+    ],
+    "container_count": 2,
+    "valid_container_count": 2,
+    "coupon_count": 3,
+    "valid_record_count": 3,
+    "treatment_median_change": 1.0,
+    "control_median_change": 0.0,
+    "control_container_count": 2,
+    "relative_change": 1.0,
+    "direction": "increase",
+    "status": "evaluated",
+    "comparable_above_visual_limit_count": 0,
+    "excluded_above_visual_limit_count": 0,
+    "container_ids": [
+      "P1-L1",
+      "P1-L2"
+    ],
+    "container_details": [
+      {
+        "container": "P1-L1",
+        "median_change": 1.0,
+        "included_coupon_count": 2,
+        "coupon_count": 2,
+        "coupons": [
+          {
+            "coupon": "P1-L1-s1",
+            "pre_grade": 0,
+            "post_grade": 1,
+            "change": 1
+          },
+          {
+            "coupon": "P1-L1-s2",
+            "pre_grade": 0,
+            "post_grade": 1,
+            "change": 1
+          }
+        ]
+      },
+      {
+        "container": "P1-L2",
+        "median_change": 1,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P1-L2-s1",
+            "pre_grade": 0,
+            "post_grade": 1,
+            "change": 1
+          }
+        ]
+      }
+    ],
+    "excluded_coupons": []
+  },
+  {
+    "fact_id": "baseline|combination|2026-07-01/2026-09-30|copper|adhesive-B+liner-A",
+    "scenario": "baseline",
+    "scenario_kind": "baseline",
+    "amendment": null,
+    "scope": "combination",
+    "exposure_period": "2026-07-01/2026-09-30",
+    "metal": "copper",
+    "combination": [
+      "adhesive-B",
+      "liner-A"
+    ],
+    "container_count": 2,
+    "valid_container_count": 2,
+    "coupon_count": 2,
+    "valid_record_count": 2,
+    "treatment_median_change": 1.0,
+    "control_median_change": 0.5,
+    "control_container_count": 2,
+    "relative_change": 0.5,
+    "direction": "no_change",
+    "status": "evaluated",
+    "comparable_above_visual_limit_count": 0,
+    "excluded_above_visual_limit_count": 0,
+    "container_ids": [
+      "P2-LA1",
+      "P2-LA2"
+    ],
+    "container_details": [
+      {
+        "container": "P2-LA1",
+        "median_change": 1,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P2-LA1-c1",
+            "pre_grade": 0,
+            "post_grade": 1,
+            "change": 1
+          }
+        ]
+      },
+      {
+        "container": "P2-LA2",
+        "median_change": 1,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P2-LA2-c1",
+            "pre_grade": 0,
+            "post_grade": 1,
+            "change": 1
+          }
+        ]
+      }
+    ],
+    "excluded_coupons": []
+  },
+  {
+    "fact_id": "baseline|combination|2026-07-01/2026-09-30|silver|adhesive-B+liner-A",
+    "scenario": "baseline",
+    "scenario_kind": "baseline",
+    "amendment": null,
+    "scope": "combination",
+    "exposure_period": "2026-07-01/2026-09-30",
+    "metal": "silver",
+    "combination": [
+      "adhesive-B",
+      "liner-A"
+    ],
+    "container_count": 2,
+    "valid_container_count": 2,
+    "coupon_count": 2,
+    "valid_record_count": 2,
+    "treatment_median_change": 1.0,
+    "control_median_change": 0.5,
+    "control_container_count": 2,
+    "relative_change": 0.5,
+    "direction": "no_change",
+    "status": "evaluated",
+    "comparable_above_visual_limit_count": 0,
+    "excluded_above_visual_limit_count": 0,
+    "container_ids": [
+      "P2-LA1",
+      "P2-LA2"
+    ],
+    "container_details": [
+      {
+        "container": "P2-LA1",
+        "median_change": 1,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P2-LA1-s1",
+            "pre_grade": 0,
+            "post_grade": 1,
+            "change": 1
+          }
+        ]
+      },
+      {
+        "container": "P2-LA2",
+        "median_change": 1,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P2-LA2-s1",
+            "pre_grade": 0,
+            "post_grade": 1,
+            "change": 1
+          }
+        ]
+      }
+    ],
+    "excluded_coupons": []
+  },
+  {
+    "fact_id": "baseline|combination|2026-07-01/2026-09-30|silver|liner-A",
+    "scenario": "baseline",
+    "scenario_kind": "baseline",
+    "amendment": null,
+    "scope": "combination",
+    "exposure_period": "2026-07-01/2026-09-30",
+    "metal": "silver",
+    "combination": [
+      "liner-A"
+    ],
+    "container_count": 1,
+    "valid_container_count": 1,
+    "coupon_count": 2,
+    "valid_record_count": 1,
+    "treatment_median_change": 0,
+    "control_median_change": 0.5,
+    "control_container_count": 2,
+    "relative_change": -0.5,
+    "direction": "no_change",
+    "status": "evaluated",
+    "comparable_above_visual_limit_count": 0,
+    "excluded_above_visual_limit_count": 0,
+    "container_ids": [
+      "P2-L1"
+    ],
+    "container_details": [
+      {
+        "container": "P2-L1",
+        "median_change": 0,
+        "included_coupon_count": 1,
+        "coupon_count": 2,
+        "coupons": [
+          {
+            "coupon": "P2-L1-s1",
+            "pre_grade": 0,
+            "post_grade": 0,
+            "change": 0
+          },
+          {
+            "coupon": "P2-L1-s2",
+            "pre_grade": null,
+            "post_grade": 1,
+            "change": null
+          }
+        ]
+      }
+    ],
+    "excluded_coupons": [
+      {
+        "container": "P2-L1",
+        "coupon": "P2-L1-s2",
+        "pre_grade": null,
+        "post_grade": 1,
+        "change": null,
+        "reason": "missing_pre_grade"
+      }
+    ]
+  },
+  {
+    "fact_id": "baseline|material|2026-04-01/2026-06-30|copper|adhesive-B+liner-A|adhesive-B",
+    "scenario": "baseline",
+    "scenario_kind": "baseline",
+    "amendment": null,
+    "scope": "material",
+    "combination": [
+      "adhesive-B",
+      "liner-A"
+    ],
+    "material": "adhesive-B",
+    "metal": "copper",
+    "exposure_period": "2026-04-01/2026-06-30",
+    "basis": "matched_combination",
+    "comparison_combination": [
+      "liner-A"
+    ],
+    "comparison_median_change": 0.0,
+    "relative_change": 0.5,
+    "direction": "no_change",
+    "status": "evaluated",
+    "reason": null,
+    "control_container_count": 2
+  },
+  {
+    "fact_id": "baseline|material|2026-04-01/2026-06-30|copper|adhesive-B+liner-A|liner-A",
+    "scenario": "baseline",
+    "scenario_kind": "baseline",
+    "amendment": null,
+    "scope": "material",
+    "combination": [
+      "adhesive-B",
+      "liner-A"
+    ],
+    "material": "liner-A",
+    "metal": "copper",
+    "exposure_period": "2026-04-01/2026-06-30",
+    "basis": "matched_combination",
+    "comparison_combination": [
+      "adhesive-B"
+    ],
+    "comparison_median_change": null,
+    "relative_change": null,
+    "direction": "undetermined",
+    "status": "pending_no_matched_combination",
+    "reason": "no matched combination in the same exposure period",
+    "control_container_count": 2
+  },
+  {
+    "fact_id": "baseline|material|2026-04-01/2026-06-30|silver|adhesive-B+liner-A|adhesive-B",
+    "scenario": "baseline",
+    "scenario_kind": "baseline",
+    "amendment": null,
+    "scope": "material",
+    "combination": [
+      "adhesive-B",
+      "liner-A"
+    ],
+    "material": "adhesive-B",
+    "metal": "silver",
+    "exposure_period": "2026-04-01/2026-06-30",
+    "basis": "matched_combination",
+    "comparison_combination": [
+      "liner-A"
+    ],
+    "comparison_median_change": 1.0,
+    "relative_change": 1.0,
+    "direction": "increase",
+    "status": "evaluated",
+    "reason": null,
+    "control_container_count": 2
+  },
+  {
+    "fact_id": "baseline|material|2026-04-01/2026-06-30|silver|adhesive-B+liner-A|liner-A",
+    "scenario": "baseline",
+    "scenario_kind": "baseline",
+    "amendment": null,
+    "scope": "material",
+    "combination": [
+      "adhesive-B",
+      "liner-A"
+    ],
+    "material": "liner-A",
+    "metal": "silver",
+    "exposure_period": "2026-04-01/2026-06-30",
+    "basis": "matched_combination",
+    "comparison_combination": [
+      "adhesive-B"
+    ],
+    "comparison_median_change": null,
+    "relative_change": null,
+    "direction": "undetermined",
+    "status": "pending_no_matched_combination",
+    "reason": "no matched combination in the same exposure period",
+    "control_container_count": 2
+  },
+  {
+    "fact_id": "baseline|material|2026-04-01/2026-06-30|copper|liner-A|liner-A",
+    "scenario": "baseline",
+    "scenario_kind": "baseline",
+    "amendment": null,
+    "scope": "material",
+    "combination": [
+      "liner-A"
+    ],
+    "material": "liner-A",
+    "metal": "copper",
+    "exposure_period": "2026-04-01/2026-06-30",
+    "basis": "blank_control",
+    "comparison_combination": [],
+    "comparison_median_change": 0.0,
+    "relative_change": 0.0,
+    "direction": "no_change",
+    "status": "evaluated",
+    "reason": null,
+    "control_container_count": 2
+  },
+  {
+    "fact_id": "baseline|material|2026-04-01/2026-06-30|silver|liner-A|liner-A",
+    "scenario": "baseline",
+    "scenario_kind": "baseline",
+    "amendment": null,
+    "scope": "material",
+    "combination": [
+      "liner-A"
+    ],
+    "material": "liner-A",
+    "metal": "silver",
+    "exposure_period": "2026-04-01/2026-06-30",
+    "basis": "blank_control",
+    "comparison_combination": [],
+    "comparison_median_change": 0.0,
+    "relative_change": 1.0,
+    "direction": "increase",
+    "status": "evaluated",
+    "reason": null,
+    "control_container_count": 2
+  },
+  {
+    "fact_id": "baseline|material|2026-07-01/2026-09-30|copper|adhesive-B+liner-A|adhesive-B",
+    "scenario": "baseline",
+    "scenario_kind": "baseline",
+    "amendment": null,
+    "scope": "material",
+    "combination": [
+      "adhesive-B",
+      "liner-A"
+    ],
+    "material": "adhesive-B",
+    "metal": "copper",
+    "exposure_period": "2026-07-01/2026-09-30",
+    "basis": "matched_combination",
+    "comparison_combination": [
+      "liner-A"
+    ],
+    "comparison_median_change": null,
+    "relative_change": null,
+    "direction": "undetermined",
+    "status": "pending_no_matched_combination",
+    "reason": "no matched combination in the same exposure period",
+    "control_container_count": 2
+  },
+  {
+    "fact_id": "baseline|material|2026-07-01/2026-09-30|copper|adhesive-B+liner-A|liner-A",
+    "scenario": "baseline",
+    "scenario_kind": "baseline",
+    "amendment": null,
+    "scope": "material",
+    "combination": [
+      "adhesive-B",
+      "liner-A"
+    ],
+    "material": "liner-A",
+    "metal": "copper",
+    "exposure_period": "2026-07-01/2026-09-30",
+    "basis": "matched_combination",
+    "comparison_combination": [
+      "adhesive-B"
+    ],
+    "comparison_median_change": null,
+    "relative_change": null,
+    "direction": "undetermined",
+    "status": "pending_no_matched_combination",
+    "reason": "no matched combination in the same exposure period",
+    "control_container_count": 2
+  },
+  {
+    "fact_id": "baseline|material|2026-07-01/2026-09-30|silver|adhesive-B+liner-A|adhesive-B",
+    "scenario": "baseline",
+    "scenario_kind": "baseline",
+    "amendment": null,
+    "scope": "material",
+    "combination": [
+      "adhesive-B",
+      "liner-A"
+    ],
+    "material": "adhesive-B",
+    "metal": "silver",
+    "exposure_period": "2026-07-01/2026-09-30",
+    "basis": "matched_combination",
+    "comparison_combination": [
+      "liner-A"
+    ],
+    "comparison_median_change": 0,
+    "relative_change": 1.0,
+    "direction": "increase",
+    "status": "evaluated",
+    "reason": null,
+    "control_container_count": 2
+  },
+  {
+    "fact_id": "baseline|material|2026-07-01/2026-09-30|silver|adhesive-B+liner-A|liner-A",
+    "scenario": "baseline",
+    "scenario_kind": "baseline",
+    "amendment": null,
+    "scope": "material",
+    "combination": [
+      "adhesive-B",
+      "liner-A"
+    ],
+    "material": "liner-A",
+    "metal": "silver",
+    "exposure_period": "2026-07-01/2026-09-30",
+    "basis": "matched_combination",
+    "comparison_combination": [
+      "adhesive-B"
+    ],
+    "comparison_median_change": null,
+    "relative_change": null,
+    "direction": "undetermined",
+    "status": "pending_no_matched_combination",
+    "reason": "no matched combination in the same exposure period",
+    "control_container_count": 2
+  },
+  {
+    "fact_id": "baseline|material|2026-07-01/2026-09-30|silver|liner-A|liner-A",
+    "scenario": "baseline",
+    "scenario_kind": "baseline",
+    "amendment": null,
+    "scope": "material",
+    "combination": [
+      "liner-A"
+    ],
+    "material": "liner-A",
+    "metal": "silver",
+    "exposure_period": "2026-07-01/2026-09-30",
+    "basis": "blank_control",
+    "comparison_combination": [],
+    "comparison_median_change": 0.5,
+    "relative_change": -0.5,
+    "direction": "no_change",
+    "status": "evaluated",
+    "reason": null,
+    "control_container_count": 2
+  },
+  {
+    "fact_id": "baseline|recommendation|01",
+    "scenario": "baseline",
+    "scenario_kind": "baseline",
+    "amendment": null,
+    "scope": "recommendation",
+    "rank": 1,
+    "exposure_period": "2026-04-01/2026-06-30",
+    "materials": [
+      "adhesive-B"
+    ],
+    "metals": [
+      "copper",
+      "silver"
+    ],
+    "reason": "missing_matched_combination",
+    "detail": "no adhesive-B-only combination in the same exposure period",
+    "affects": [
+      "material:adhesive-B+liner-A/liner-A/copper",
+      "material:adhesive-B+liner-A/liner-A/silver"
+    ],
+    "score": 2
+  },
+  {
+    "fact_id": "baseline|recommendation|02",
+    "scenario": "baseline",
+    "scenario_kind": "baseline",
+    "amendment": null,
+    "scope": "recommendation",
+    "rank": 2,
+    "exposure_period": "2026-07-01/2026-09-30",
+    "materials": [
+      "adhesive-B"
+    ],
+    "metals": [
+      "copper",
+      "silver"
+    ],
+    "reason": "missing_matched_combination",
+    "detail": "no adhesive-B-only combination in the same exposure period",
+    "affects": [
+      "material:adhesive-B+liner-A/liner-A/copper",
+      "material:adhesive-B+liner-A/liner-A/silver"
+    ],
+    "score": 2
+  },
+  {
+    "fact_id": "baseline|recommendation|03",
+    "scenario": "baseline",
+    "scenario_kind": "baseline",
+    "amendment": null,
+    "scope": "recommendation",
+    "rank": 3,
+    "exposure_period": "2026-07-01/2026-09-30",
+    "materials": [
+      "liner-A"
+    ],
+    "metals": [
+      "copper"
+    ],
+    "reason": "missing_matched_combination",
+    "detail": "no liner-A-only combination in the same exposure period",
+    "affects": [
+      "material:adhesive-B+liner-A/adhesive-B/copper"
+    ],
+    "score": 1
+  },
+  {
+    "fact_id": "A1-missing-pre-record|control|2026-04-01/2026-06-30|copper",
+    "scenario": "A1-missing-pre-record",
+    "scenario_kind": "add_pre_grade",
+    "amendment": "A1-missing-pre-record",
+    "note": "补到入箱前照片，确认该试片入箱前为 0 级",
+    "scope": "control",
+    "exposure_period": "2026-04-01/2026-06-30",
+    "metal": "copper",
+    "status": "control_available",
+    "container_count": 2,
+    "coupon_count": 2,
+    "valid_record_count": 2,
+    "median_change": 0.0,
+    "comparable_above_visual_limit_count": 0,
+    "excluded_above_visual_limit_count": 0,
+    "container_ids": [
+      "P1-C1",
+      "P1-C2"
+    ],
+    "invalidated_container_ids": [],
+    "container_details": [
+      {
+        "container": "P1-C1",
+        "median_change": 0,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P1-C1-c1",
+            "pre_grade": 0,
+            "post_grade": 0,
+            "change": 0
+          }
+        ]
+      },
+      {
+        "container": "P1-C2",
+        "median_change": 0,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P1-C2-c1",
+            "pre_grade": 0,
+            "post_grade": 0,
+            "change": 0
+          }
+        ]
+      }
+    ],
+    "excluded_coupons": []
+  },
+  {
+    "fact_id": "A1-missing-pre-record|control|2026-04-01/2026-06-30|silver",
+    "scenario": "A1-missing-pre-record",
+    "scenario_kind": "add_pre_grade",
+    "amendment": "A1-missing-pre-record",
+    "note": "补到入箱前照片，确认该试片入箱前为 0 级",
+    "scope": "control",
+    "exposure_period": "2026-04-01/2026-06-30",
+    "metal": "silver",
+    "status": "control_available",
+    "container_count": 2,
+    "coupon_count": 2,
+    "valid_record_count": 2,
+    "median_change": 0.0,
+    "comparable_above_visual_limit_count": 0,
+    "excluded_above_visual_limit_count": 0,
+    "container_ids": [
+      "P1-C1",
+      "P1-C2"
+    ],
+    "invalidated_container_ids": [],
+    "container_details": [
+      {
+        "container": "P1-C1",
+        "median_change": 0,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P1-C1-s1",
+            "pre_grade": 0,
+            "post_grade": 0,
+            "change": 0
+          }
+        ]
+      },
+      {
+        "container": "P1-C2",
+        "median_change": 0,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P1-C2-s1",
+            "pre_grade": 0,
+            "post_grade": 0,
+            "change": 0
+          }
+        ]
+      }
+    ],
+    "excluded_coupons": []
+  },
+  {
+    "fact_id": "A1-missing-pre-record|control|2026-07-01/2026-09-30|copper",
+    "scenario": "A1-missing-pre-record",
+    "scenario_kind": "add_pre_grade",
+    "amendment": "A1-missing-pre-record",
+    "note": "补到入箱前照片，确认该试片入箱前为 0 级",
+    "scope": "control",
+    "exposure_period": "2026-07-01/2026-09-30",
+    "metal": "copper",
+    "status": "control_available",
+    "container_count": 2,
+    "coupon_count": 2,
+    "valid_record_count": 2,
+    "median_change": 0.5,
+    "comparable_above_visual_limit_count": 0,
+    "excluded_above_visual_limit_count": 0,
+    "container_ids": [
+      "P2-C1",
+      "P2-C2"
+    ],
+    "invalidated_container_ids": [],
+    "container_details": [
+      {
+        "container": "P2-C1",
+        "median_change": 0,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P2-C1-c1",
+            "pre_grade": 0,
+            "post_grade": 0,
+            "change": 0
+          }
+        ]
+      },
+      {
+        "container": "P2-C2",
+        "median_change": 1,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P2-C2-c1",
+            "pre_grade": 0,
+            "post_grade": 1,
+            "change": 1
+          }
+        ]
+      }
+    ],
+    "excluded_coupons": []
+  },
+  {
+    "fact_id": "A1-missing-pre-record|control|2026-07-01/2026-09-30|silver",
+    "scenario": "A1-missing-pre-record",
+    "scenario_kind": "add_pre_grade",
+    "amendment": "A1-missing-pre-record",
+    "note": "补到入箱前照片，确认该试片入箱前为 0 级",
+    "scope": "control",
+    "exposure_period": "2026-07-01/2026-09-30",
+    "metal": "silver",
+    "status": "control_available",
+    "container_count": 2,
+    "coupon_count": 2,
+    "valid_record_count": 2,
+    "median_change": 0.5,
+    "comparable_above_visual_limit_count": 0,
+    "excluded_above_visual_limit_count": 0,
+    "container_ids": [
+      "P2-C1",
+      "P2-C2"
+    ],
+    "invalidated_container_ids": [],
+    "container_details": [
+      {
+        "container": "P2-C1",
+        "median_change": 0,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P2-C1-s1",
+            "pre_grade": 0,
+            "post_grade": 0,
+            "change": 0
+          }
+        ]
+      },
+      {
+        "container": "P2-C2",
+        "median_change": 1,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P2-C2-s1",
+            "pre_grade": 0,
+            "post_grade": 1,
+            "change": 1
+          }
+        ]
+      }
+    ],
+    "excluded_coupons": []
+  },
+  {
+    "fact_id": "A1-missing-pre-record|combination|2026-04-01/2026-06-30|copper|adhesive-B+liner-A",
+    "scenario": "A1-missing-pre-record",
+    "scenario_kind": "add_pre_grade",
+    "amendment": "A1-missing-pre-record",
+    "note": "补到入箱前照片，确认该试片入箱前为 0 级",
+    "scope": "combination",
+    "exposure_period": "2026-04-01/2026-06-30",
+    "metal": "copper",
+    "combination": [
+      "adhesive-B",
+      "liner-A"
+    ],
+    "container_count": 2,
+    "valid_container_count": 2,
+    "coupon_count": 2,
+    "valid_record_count": 2,
+    "treatment_median_change": 0.5,
+    "control_median_change": 0.0,
+    "control_container_count": 2,
+    "relative_change": 0.5,
+    "direction": "no_change",
+    "status": "evaluated",
+    "comparable_above_visual_limit_count": 0,
+    "excluded_above_visual_limit_count": 0,
+    "container_ids": [
+      "P1-LA1",
+      "P1-LA2"
+    ],
+    "container_details": [
+      {
+        "container": "P1-LA1",
+        "median_change": 0,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P1-LA1-c1",
+            "pre_grade": 0,
+            "post_grade": 0,
+            "change": 0
+          }
+        ]
+      },
+      {
+        "container": "P1-LA2",
+        "median_change": 1,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P1-LA2-c1",
+            "pre_grade": 0,
+            "post_grade": 1,
+            "change": 1
+          }
+        ]
+      }
+    ],
+    "excluded_coupons": []
+  },
+  {
+    "fact_id": "A1-missing-pre-record|combination|2026-04-01/2026-06-30|silver|adhesive-B+liner-A",
+    "scenario": "A1-missing-pre-record",
+    "scenario_kind": "add_pre_grade",
+    "amendment": "A1-missing-pre-record",
+    "note": "补到入箱前照片，确认该试片入箱前为 0 级",
+    "scope": "combination",
+    "exposure_period": "2026-04-01/2026-06-30",
+    "metal": "silver",
+    "combination": [
+      "adhesive-B",
+      "liner-A"
+    ],
+    "container_count": 2,
+    "valid_container_count": 2,
+    "coupon_count": 5,
+    "valid_record_count": 2,
+    "treatment_median_change": 2.0,
+    "control_median_change": 0.0,
+    "control_container_count": 2,
+    "relative_change": 2.0,
+    "direction": "increase",
+    "status": "evaluated",
+    "comparable_above_visual_limit_count": 2,
+    "excluded_above_visual_limit_count": 3,
+    "container_ids": [
+      "P1-LA1",
+      "P1-LA2"
+    ],
+    "container_details": [
+      {
+        "container": "P1-LA1",
+        "median_change": 2,
+        "included_coupon_count": 1,
+        "coupon_count": 3,
+        "coupons": [
+          {
+            "coupon": "P1-LA1-s1",
+            "pre_grade": 0,
+            "post_grade": 2,
+            "change": null
+          },
+          {
+            "coupon": "P1-LA1-s2",
+            "pre_grade": 0,
+            "post_grade": 2,
+            "change": 2
+          },
+          {
+            "coupon": "P1-LA1-s3",
+            "pre_grade": 0,
+            "post_grade": 3,
+            "change": null
+          }
+        ]
+      },
+      {
+        "container": "P1-LA2",
+        "median_change": 2,
+        "included_coupon_count": 1,
+        "coupon_count": 2,
+        "coupons": [
+          {
+            "coupon": "P1-LA2-s1",
+            "pre_grade": 0,
+            "post_grade": 2,
+            "change": 2
+          },
+          {
+            "coupon": "P1-LA2-s2",
+            "pre_grade": 0,
+            "post_grade": 3,
+            "change": null
+          }
+        ]
+      }
+    ],
+    "excluded_coupons": [
+      {
+        "container": "P1-LA1",
+        "coupon": "P1-LA1-s1",
+        "pre_grade": 0,
+        "post_grade": 2,
+        "change": null,
+        "reason": "pre_existing_blemish"
+      },
+      {
+        "container": "P1-LA1",
+        "coupon": "P1-LA1-s3",
+        "pre_grade": 0,
+        "post_grade": 3,
+        "change": null,
+        "reason": "pre_existing_blemish"
+      },
+      {
+        "container": "P1-LA2",
+        "coupon": "P1-LA2-s2",
+        "pre_grade": 0,
+        "post_grade": 3,
+        "change": null,
+        "reason": "pre_existing_blemish"
+      }
+    ]
+  },
+  {
+    "fact_id": "A1-missing-pre-record|combination|2026-04-01/2026-06-30|copper|liner-A",
+    "scenario": "A1-missing-pre-record",
+    "scenario_kind": "add_pre_grade",
+    "amendment": "A1-missing-pre-record",
+    "note": "补到入箱前照片，确认该试片入箱前为 0 级",
+    "scope": "combination",
+    "exposure_period": "2026-04-01/2026-06-30",
+    "metal": "copper",
+    "combination": [
+      "liner-A"
+    ],
+    "container_count": 2,
+    "valid_container_count": 2,
+    "coupon_count": 2,
+    "valid_record_count": 2,
+    "treatment_median_change": 0.0,
+    "control_median_change": 0.0,
+    "control_container_count": 2,
+    "relative_change": 0.0,
+    "direction": "no_change",
+    "status": "evaluated",
+    "comparable_above_visual_limit_count": 0,
+    "excluded_above_visual_limit_count": 0,
+    "container_ids": [
+      "P1-L1",
+      "P1-L2"
+    ],
+    "container_details": [
+      {
+        "container": "P1-L1",
+        "median_change": 0,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P1-L1-c1",
+            "pre_grade": 0,
+            "post_grade": 0,
+            "change": 0
+          }
+        ]
+      },
+      {
+        "container": "P1-L2",
+        "median_change": 0,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P1-L2-c1",
+            "pre_grade": 0,
+            "post_grade": 0,
+            "change": 0
+          }
+        ]
+      }
+    ],
+    "excluded_coupons": []
+  },
+  {
+    "fact_id": "A1-missing-pre-record|combination|2026-04-01/2026-06-30|silver|liner-A",
+    "scenario": "A1-missing-pre-record",
+    "scenario_kind": "add_pre_grade",
+    "amendment": "A1-missing-pre-record",
+    "note": "补到入箱前照片，确认该试片入箱前为 0 级",
+    "scope": "combination",
+    "exposure_period": "2026-04-01/2026-06-30",
+    "metal": "silver",
+    "combination": [
+      "liner-A"
+    ],
+    "container_count": 2,
+    "valid_container_count": 2,
+    "coupon_count": 3,
+    "valid_record_count": 3,
+    "treatment_median_change": 1.0,
+    "control_median_change": 0.0,
+    "control_container_count": 2,
+    "relative_change": 1.0,
+    "direction": "increase",
+    "status": "evaluated",
+    "comparable_above_visual_limit_count": 0,
+    "excluded_above_visual_limit_count": 0,
+    "container_ids": [
+      "P1-L1",
+      "P1-L2"
+    ],
+    "container_details": [
+      {
+        "container": "P1-L1",
+        "median_change": 1.0,
+        "included_coupon_count": 2,
+        "coupon_count": 2,
+        "coupons": [
+          {
+            "coupon": "P1-L1-s1",
+            "pre_grade": 0,
+            "post_grade": 1,
+            "change": 1
+          },
+          {
+            "coupon": "P1-L1-s2",
+            "pre_grade": 0,
+            "post_grade": 1,
+            "change": 1
+          }
+        ]
+      },
+      {
+        "container": "P1-L2",
+        "median_change": 1,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P1-L2-s1",
+            "pre_grade": 0,
+            "post_grade": 1,
+            "change": 1
+          }
+        ]
+      }
+    ],
+    "excluded_coupons": []
+  },
+  {
+    "fact_id": "A1-missing-pre-record|combination|2026-07-01/2026-09-30|copper|adhesive-B+liner-A",
+    "scenario": "A1-missing-pre-record",
+    "scenario_kind": "add_pre_grade",
+    "amendment": "A1-missing-pre-record",
+    "note": "补到入箱前照片，确认该试片入箱前为 0 级",
+    "scope": "combination",
+    "exposure_period": "2026-07-01/2026-09-30",
+    "metal": "copper",
+    "combination": [
+      "adhesive-B",
+      "liner-A"
+    ],
+    "container_count": 2,
+    "valid_container_count": 2,
+    "coupon_count": 2,
+    "valid_record_count": 2,
+    "treatment_median_change": 1.0,
+    "control_median_change": 0.5,
+    "control_container_count": 2,
+    "relative_change": 0.5,
+    "direction": "no_change",
+    "status": "evaluated",
+    "comparable_above_visual_limit_count": 0,
+    "excluded_above_visual_limit_count": 0,
+    "container_ids": [
+      "P2-LA1",
+      "P2-LA2"
+    ],
+    "container_details": [
+      {
+        "container": "P2-LA1",
+        "median_change": 1,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P2-LA1-c1",
+            "pre_grade": 0,
+            "post_grade": 1,
+            "change": 1
+          }
+        ]
+      },
+      {
+        "container": "P2-LA2",
+        "median_change": 1,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P2-LA2-c1",
+            "pre_grade": 0,
+            "post_grade": 1,
+            "change": 1
+          }
+        ]
+      }
+    ],
+    "excluded_coupons": []
+  },
+  {
+    "fact_id": "A1-missing-pre-record|combination|2026-07-01/2026-09-30|silver|adhesive-B+liner-A",
+    "scenario": "A1-missing-pre-record",
+    "scenario_kind": "add_pre_grade",
+    "amendment": "A1-missing-pre-record",
+    "note": "补到入箱前照片，确认该试片入箱前为 0 级",
+    "scope": "combination",
+    "exposure_period": "2026-07-01/2026-09-30",
+    "metal": "silver",
+    "combination": [
+      "adhesive-B",
+      "liner-A"
+    ],
+    "container_count": 2,
+    "valid_container_count": 2,
+    "coupon_count": 2,
+    "valid_record_count": 2,
+    "treatment_median_change": 1.0,
+    "control_median_change": 0.5,
+    "control_container_count": 2,
+    "relative_change": 0.5,
+    "direction": "no_change",
+    "status": "evaluated",
+    "comparable_above_visual_limit_count": 0,
+    "excluded_above_visual_limit_count": 0,
+    "container_ids": [
+      "P2-LA1",
+      "P2-LA2"
+    ],
+    "container_details": [
+      {
+        "container": "P2-LA1",
+        "median_change": 1,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P2-LA1-s1",
+            "pre_grade": 0,
+            "post_grade": 1,
+            "change": 1
+          }
+        ]
+      },
+      {
+        "container": "P2-LA2",
+        "median_change": 1,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P2-LA2-s1",
+            "pre_grade": 0,
+            "post_grade": 1,
+            "change": 1
+          }
+        ]
+      }
+    ],
+    "excluded_coupons": []
+  },
+  {
+    "fact_id": "A1-missing-pre-record|combination|2026-07-01/2026-09-30|silver|liner-A",
+    "scenario": "A1-missing-pre-record",
+    "scenario_kind": "add_pre_grade",
+    "amendment": "A1-missing-pre-record",
+    "note": "补到入箱前照片，确认该试片入箱前为 0 级",
+    "scope": "combination",
+    "exposure_period": "2026-07-01/2026-09-30",
+    "metal": "silver",
+    "combination": [
+      "liner-A"
+    ],
+    "container_count": 1,
+    "valid_container_count": 1,
+    "coupon_count": 2,
+    "valid_record_count": 2,
+    "treatment_median_change": 0.5,
+    "control_median_change": 0.5,
+    "control_container_count": 2,
+    "relative_change": 0.0,
+    "direction": "no_change",
+    "status": "evaluated",
+    "comparable_above_visual_limit_count": 0,
+    "excluded_above_visual_limit_count": 0,
+    "container_ids": [
+      "P2-L1"
+    ],
+    "container_details": [
+      {
+        "container": "P2-L1",
+        "median_change": 0.5,
+        "included_coupon_count": 2,
+        "coupon_count": 2,
+        "coupons": [
+          {
+            "coupon": "P2-L1-s1",
+            "pre_grade": 0,
+            "post_grade": 0,
+            "change": 0
+          },
+          {
+            "coupon": "P2-L1-s2",
+            "pre_grade": 0,
+            "post_grade": 1,
+            "change": 1
+          }
+        ]
+      }
+    ],
+    "excluded_coupons": []
+  },
+  {
+    "fact_id": "A1-missing-pre-record|material|2026-04-01/2026-06-30|copper|adhesive-B+liner-A|adhesive-B",
+    "scenario": "A1-missing-pre-record",
+    "scenario_kind": "add_pre_grade",
+    "amendment": "A1-missing-pre-record",
+    "note": "补到入箱前照片，确认该试片入箱前为 0 级",
+    "scope": "material",
+    "combination": [
+      "adhesive-B",
+      "liner-A"
+    ],
+    "material": "adhesive-B",
+    "metal": "copper",
+    "exposure_period": "2026-04-01/2026-06-30",
+    "basis": "matched_combination",
+    "comparison_combination": [
+      "liner-A"
+    ],
+    "comparison_median_change": 0.0,
+    "relative_change": 0.5,
+    "direction": "no_change",
+    "status": "evaluated",
+    "reason": null,
+    "control_container_count": 2
+  },
+  {
+    "fact_id": "A1-missing-pre-record|material|2026-04-01/2026-06-30|copper|adhesive-B+liner-A|liner-A",
+    "scenario": "A1-missing-pre-record",
+    "scenario_kind": "add_pre_grade",
+    "amendment": "A1-missing-pre-record",
+    "note": "补到入箱前照片，确认该试片入箱前为 0 级",
+    "scope": "material",
+    "combination": [
+      "adhesive-B",
+      "liner-A"
+    ],
+    "material": "liner-A",
+    "metal": "copper",
+    "exposure_period": "2026-04-01/2026-06-30",
+    "basis": "matched_combination",
+    "comparison_combination": [
+      "adhesive-B"
+    ],
+    "comparison_median_change": null,
+    "relative_change": null,
+    "direction": "undetermined",
+    "status": "pending_no_matched_combination",
+    "reason": "no matched combination in the same exposure period",
+    "control_container_count": 2
+  },
+  {
+    "fact_id": "A1-missing-pre-record|material|2026-04-01/2026-06-30|silver|adhesive-B+liner-A|adhesive-B",
+    "scenario": "A1-missing-pre-record",
+    "scenario_kind": "add_pre_grade",
+    "amendment": "A1-missing-pre-record",
+    "note": "补到入箱前照片，确认该试片入箱前为 0 级",
+    "scope": "material",
+    "combination": [
+      "adhesive-B",
+      "liner-A"
+    ],
+    "material": "adhesive-B",
+    "metal": "silver",
+    "exposure_period": "2026-04-01/2026-06-30",
+    "basis": "matched_combination",
+    "comparison_combination": [
+      "liner-A"
+    ],
+    "comparison_median_change": 1.0,
+    "relative_change": 1.0,
+    "direction": "increase",
+    "status": "evaluated",
+    "reason": null,
+    "control_container_count": 2
+  },
+  {
+    "fact_id": "A1-missing-pre-record|material|2026-04-01/2026-06-30|silver|adhesive-B+liner-A|liner-A",
+    "scenario": "A1-missing-pre-record",
+    "scenario_kind": "add_pre_grade",
+    "amendment": "A1-missing-pre-record",
+    "note": "补到入箱前照片，确认该试片入箱前为 0 级",
+    "scope": "material",
+    "combination": [
+      "adhesive-B",
+      "liner-A"
+    ],
+    "material": "liner-A",
+    "metal": "silver",
+    "exposure_period": "2026-04-01/2026-06-30",
+    "basis": "matched_combination",
+    "comparison_combination": [
+      "adhesive-B"
+    ],
+    "comparison_median_change": null,
+    "relative_change": null,
+    "direction": "undetermined",
+    "status": "pending_no_matched_combination",
+    "reason": "no matched combination in the same exposure period",
+    "control_container_count": 2
+  },
+  {
+    "fact_id": "A1-missing-pre-record|material|2026-04-01/2026-06-30|copper|liner-A|liner-A",
+    "scenario": "A1-missing-pre-record",
+    "scenario_kind": "add_pre_grade",
+    "amendment": "A1-missing-pre-record",
+    "note": "补到入箱前照片，确认该试片入箱前为 0 级",
+    "scope": "material",
+    "combination": [
+      "liner-A"
+    ],
+    "material": "liner-A",
+    "metal": "copper",
+    "exposure_period": "2026-04-01/2026-06-30",
+    "basis": "blank_control",
+    "comparison_combination": [],
+    "comparison_median_change": 0.0,
+    "relative_change": 0.0,
+    "direction": "no_change",
+    "status": "evaluated",
+    "reason": null,
+    "control_container_count": 2
+  },
+  {
+    "fact_id": "A1-missing-pre-record|material|2026-04-01/2026-06-30|silver|liner-A|liner-A",
+    "scenario": "A1-missing-pre-record",
+    "scenario_kind": "add_pre_grade",
+    "amendment": "A1-missing-pre-record",
+    "note": "补到入箱前照片，确认该试片入箱前为 0 级",
+    "scope": "material",
+    "combination": [
+      "liner-A"
+    ],
+    "material": "liner-A",
+    "metal": "silver",
+    "exposure_period": "2026-04-01/2026-06-30",
+    "basis": "blank_control",
+    "comparison_combination": [],
+    "comparison_median_change": 0.0,
+    "relative_change": 1.0,
+    "direction": "increase",
+    "status": "evaluated",
+    "reason": null,
+    "control_container_count": 2
+  },
+  {
+    "fact_id": "A1-missing-pre-record|material|2026-07-01/2026-09-30|copper|adhesive-B+liner-A|adhesive-B",
+    "scenario": "A1-missing-pre-record",
+    "scenario_kind": "add_pre_grade",
+    "amendment": "A1-missing-pre-record",
+    "note": "补到入箱前照片，确认该试片入箱前为 0 级",
+    "scope": "material",
+    "combination": [
+      "adhesive-B",
+      "liner-A"
+    ],
+    "material": "adhesive-B",
+    "metal": "copper",
+    "exposure_period": "2026-07-01/2026-09-30",
+    "basis": "matched_combination",
+    "comparison_combination": [
+      "liner-A"
+    ],
+    "comparison_median_change": null,
+    "relative_change": null,
+    "direction": "undetermined",
+    "status": "pending_no_matched_combination",
+    "reason": "no matched combination in the same exposure period",
+    "control_container_count": 2
+  },
+  {
+    "fact_id": "A1-missing-pre-record|material|2026-07-01/2026-09-30|copper|adhesive-B+liner-A|liner-A",
+    "scenario": "A1-missing-pre-record",
+    "scenario_kind": "add_pre_grade",
+    "amendment": "A1-missing-pre-record",
+    "note": "补到入箱前照片，确认该试片入箱前为 0 级",
+    "scope": "material",
+    "combination": [
+      "adhesive-B",
+      "liner-A"
+    ],
+    "material": "liner-A",
+    "metal": "copper",
+    "exposure_period": "2026-07-01/2026-09-30",
+    "basis": "matched_combination",
+    "comparison_combination": [
+      "adhesive-B"
+    ],
+    "comparison_median_change": null,
+    "relative_change": null,
+    "direction": "undetermined",
+    "status": "pending_no_matched_combination",
+    "reason": "no matched combination in the same exposure period",
+    "control_container_count": 2
+  },
+  {
+    "fact_id": "A1-missing-pre-record|material|2026-07-01/2026-09-30|silver|adhesive-B+liner-A|adhesive-B",
+    "scenario": "A1-missing-pre-record",
+    "scenario_kind": "add_pre_grade",
+    "amendment": "A1-missing-pre-record",
+    "note": "补到入箱前照片，确认该试片入箱前为 0 级",
+    "scope": "material",
+    "combination": [
+      "adhesive-B",
+      "liner-A"
+    ],
+    "material": "adhesive-B",
+    "metal": "silver",
+    "exposure_period": "2026-07-01/2026-09-30",
+    "basis": "matched_combination",
+    "comparison_combination": [
+      "liner-A"
+    ],
+    "comparison_median_change": 0.5,
+    "relative_change": 0.5,
+    "direction": "no_change",
+    "status": "evaluated",
+    "reason": null,
+    "control_container_count": 2
+  },
+  {
+    "fact_id": "A1-missing-pre-record|material|2026-07-01/2026-09-30|silver|adhesive-B+liner-A|liner-A",
+    "scenario": "A1-missing-pre-record",
+    "scenario_kind": "add_pre_grade",
+    "amendment": "A1-missing-pre-record",
+    "note": "补到入箱前照片，确认该试片入箱前为 0 级",
+    "scope": "material",
+    "combination": [
+      "adhesive-B",
+      "liner-A"
+    ],
+    "material": "liner-A",
+    "metal": "silver",
+    "exposure_period": "2026-07-01/2026-09-30",
+    "basis": "matched_combination",
+    "comparison_combination": [
+      "adhesive-B"
+    ],
+    "comparison_median_change": null,
+    "relative_change": null,
+    "direction": "undetermined",
+    "status": "pending_no_matched_combination",
+    "reason": "no matched combination in the same exposure period",
+    "control_container_count": 2
+  },
+  {
+    "fact_id": "A1-missing-pre-record|material|2026-07-01/2026-09-30|silver|liner-A|liner-A",
+    "scenario": "A1-missing-pre-record",
+    "scenario_kind": "add_pre_grade",
+    "amendment": "A1-missing-pre-record",
+    "note": "补到入箱前照片，确认该试片入箱前为 0 级",
+    "scope": "material",
+    "combination": [
+      "liner-A"
+    ],
+    "material": "liner-A",
+    "metal": "silver",
+    "exposure_period": "2026-07-01/2026-09-30",
+    "basis": "blank_control",
+    "comparison_combination": [],
+    "comparison_median_change": 0.5,
+    "relative_change": 0.0,
+    "direction": "no_change",
+    "status": "evaluated",
+    "reason": null,
+    "control_container_count": 2
+  },
+  {
+    "fact_id": "A1-missing-pre-record|recommendation|01",
+    "scenario": "A1-missing-pre-record",
+    "scenario_kind": "add_pre_grade",
+    "amendment": "A1-missing-pre-record",
+    "note": "补到入箱前照片，确认该试片入箱前为 0 级",
+    "scope": "recommendation",
+    "rank": 1,
+    "exposure_period": "2026-04-01/2026-06-30",
+    "materials": [
+      "adhesive-B"
+    ],
+    "metals": [
+      "copper",
+      "silver"
+    ],
+    "reason": "missing_matched_combination",
+    "detail": "no adhesive-B-only combination in the same exposure period",
+    "affects": [
+      "material:adhesive-B+liner-A/liner-A/copper",
+      "material:adhesive-B+liner-A/liner-A/silver"
+    ],
+    "score": 2
+  },
+  {
+    "fact_id": "A1-missing-pre-record|recommendation|02",
+    "scenario": "A1-missing-pre-record",
+    "scenario_kind": "add_pre_grade",
+    "amendment": "A1-missing-pre-record",
+    "note": "补到入箱前照片，确认该试片入箱前为 0 级",
+    "scope": "recommendation",
+    "rank": 2,
+    "exposure_period": "2026-07-01/2026-09-30",
+    "materials": [
+      "adhesive-B"
+    ],
+    "metals": [
+      "copper",
+      "silver"
+    ],
+    "reason": "missing_matched_combination",
+    "detail": "no adhesive-B-only combination in the same exposure period",
+    "affects": [
+      "material:adhesive-B+liner-A/liner-A/copper",
+      "material:adhesive-B+liner-A/liner-A/silver"
+    ],
+    "score": 2
+  },
+  {
+    "fact_id": "A1-missing-pre-record|recommendation|03",
+    "scenario": "A1-missing-pre-record",
+    "scenario_kind": "add_pre_grade",
+    "amendment": "A1-missing-pre-record",
+    "note": "补到入箱前照片，确认该试片入箱前为 0 级",
+    "scope": "recommendation",
+    "rank": 3,
+    "exposure_period": "2026-07-01/2026-09-30",
+    "materials": [
+      "liner-A"
+    ],
+    "metals": [
+      "copper"
+    ],
+    "reason": "missing_matched_combination",
+    "detail": "no liner-A-only combination in the same exposure period",
+    "affects": [
+      "material:adhesive-B+liner-A/adhesive-B/copper"
+    ],
+    "score": 1
+  },
+  {
+    "fact_id": "A1-missing-pre-record|impact|material|2026-07-01/2026-09-30|silver|adhesive-B+liner-A|adhesive-B",
+    "scenario": "A1-missing-pre-record",
+    "scenario_kind": "add_pre_grade",
+    "amendment": "A1-missing-pre-record",
+    "scope": "amendment_impact",
+    "change": "direction",
+    "target_scope": "material",
+    "exposure_period": "2026-07-01/2026-09-30",
+    "metal": "silver",
+    "combination": [
+      "adhesive-B",
+      "liner-A"
+    ],
+    "material": "adhesive-B",
+    "before": {
+      "status": "evaluated",
+      "direction": "increase",
+      "relative_change": 1.0
+    },
+    "after": {
+      "status": "evaluated",
+      "direction": "no_change",
+      "relative_change": 0.5
+    },
+    "note": "补到入箱前照片，确认该试片入箱前为 0 级"
+  },
+  {
+    "fact_id": "A2-control-cross-contamination|control|2026-04-01/2026-06-30|copper",
+    "scenario": "A2-control-cross-contamination",
+    "scenario_kind": "invalidate_control",
+    "amendment": "A2-control-cross-contamination",
+    "note": "该空白对照曾与待评组合共用一次暴露环境，不再作为空白对照",
+    "scope": "control",
+    "exposure_period": "2026-04-01/2026-06-30",
+    "metal": "copper",
+    "status": "control_available",
+    "container_count": 2,
+    "coupon_count": 2,
+    "valid_record_count": 2,
+    "median_change": 0.0,
+    "comparable_above_visual_limit_count": 0,
+    "excluded_above_visual_limit_count": 0,
+    "container_ids": [
+      "P1-C1",
+      "P1-C2"
+    ],
+    "invalidated_container_ids": [],
+    "container_details": [
+      {
+        "container": "P1-C1",
+        "median_change": 0,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P1-C1-c1",
+            "pre_grade": 0,
+            "post_grade": 0,
+            "change": 0
+          }
+        ]
+      },
+      {
+        "container": "P1-C2",
+        "median_change": 0,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P1-C2-c1",
+            "pre_grade": 0,
+            "post_grade": 0,
+            "change": 0
+          }
+        ]
+      }
+    ],
+    "excluded_coupons": []
+  },
+  {
+    "fact_id": "A2-control-cross-contamination|control|2026-04-01/2026-06-30|silver",
+    "scenario": "A2-control-cross-contamination",
+    "scenario_kind": "invalidate_control",
+    "amendment": "A2-control-cross-contamination",
+    "note": "该空白对照曾与待评组合共用一次暴露环境，不再作为空白对照",
+    "scope": "control",
+    "exposure_period": "2026-04-01/2026-06-30",
+    "metal": "silver",
+    "status": "control_available",
+    "container_count": 2,
+    "coupon_count": 2,
+    "valid_record_count": 2,
+    "median_change": 0.0,
+    "comparable_above_visual_limit_count": 0,
+    "excluded_above_visual_limit_count": 0,
+    "container_ids": [
+      "P1-C1",
+      "P1-C2"
+    ],
+    "invalidated_container_ids": [],
+    "container_details": [
+      {
+        "container": "P1-C1",
+        "median_change": 0,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P1-C1-s1",
+            "pre_grade": 0,
+            "post_grade": 0,
+            "change": 0
+          }
+        ]
+      },
+      {
+        "container": "P1-C2",
+        "median_change": 0,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P1-C2-s1",
+            "pre_grade": 0,
+            "post_grade": 0,
+            "change": 0
+          }
+        ]
+      }
+    ],
+    "excluded_coupons": []
+  },
+  {
+    "fact_id": "A2-control-cross-contamination|control|2026-07-01/2026-09-30|copper",
+    "scenario": "A2-control-cross-contamination",
+    "scenario_kind": "invalidate_control",
+    "amendment": "A2-control-cross-contamination",
+    "note": "该空白对照曾与待评组合共用一次暴露环境，不再作为空白对照",
+    "scope": "control",
+    "exposure_period": "2026-07-01/2026-09-30",
+    "metal": "copper",
+    "status": "control_available",
+    "container_count": 1,
+    "coupon_count": 1,
+    "valid_record_count": 1,
+    "median_change": 0,
+    "comparable_above_visual_limit_count": 0,
+    "excluded_above_visual_limit_count": 0,
+    "container_ids": [
+      "P2-C1"
+    ],
+    "invalidated_container_ids": [
+      "P2-C2"
+    ],
+    "container_details": [
+      {
+        "container": "P2-C1",
+        "median_change": 0,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P2-C1-c1",
+            "pre_grade": 0,
+            "post_grade": 0,
+            "change": 0
+          }
+        ]
+      }
+    ],
+    "excluded_coupons": []
+  },
+  {
+    "fact_id": "A2-control-cross-contamination|control|2026-07-01/2026-09-30|silver",
+    "scenario": "A2-control-cross-contamination",
+    "scenario_kind": "invalidate_control",
+    "amendment": "A2-control-cross-contamination",
+    "note": "该空白对照曾与待评组合共用一次暴露环境，不再作为空白对照",
+    "scope": "control",
+    "exposure_period": "2026-07-01/2026-09-30",
+    "metal": "silver",
+    "status": "control_available",
+    "container_count": 1,
+    "coupon_count": 1,
+    "valid_record_count": 1,
+    "median_change": 0,
+    "comparable_above_visual_limit_count": 0,
+    "excluded_above_visual_limit_count": 0,
+    "container_ids": [
+      "P2-C1"
+    ],
+    "invalidated_container_ids": [
+      "P2-C2"
+    ],
+    "container_details": [
+      {
+        "container": "P2-C1",
+        "median_change": 0,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P2-C1-s1",
+            "pre_grade": 0,
+            "post_grade": 0,
+            "change": 0
+          }
+        ]
+      }
+    ],
+    "excluded_coupons": []
+  },
+  {
+    "fact_id": "A2-control-cross-contamination|combination|2026-04-01/2026-06-30|copper|adhesive-B+liner-A",
+    "scenario": "A2-control-cross-contamination",
+    "scenario_kind": "invalidate_control",
+    "amendment": "A2-control-cross-contamination",
+    "note": "该空白对照曾与待评组合共用一次暴露环境，不再作为空白对照",
+    "scope": "combination",
+    "exposure_period": "2026-04-01/2026-06-30",
+    "metal": "copper",
+    "combination": [
+      "adhesive-B",
+      "liner-A"
+    ],
+    "container_count": 2,
+    "valid_container_count": 2,
+    "coupon_count": 2,
+    "valid_record_count": 2,
+    "treatment_median_change": 0.5,
+    "control_median_change": 0.0,
+    "control_container_count": 2,
+    "relative_change": 0.5,
+    "direction": "no_change",
+    "status": "evaluated",
+    "comparable_above_visual_limit_count": 0,
+    "excluded_above_visual_limit_count": 0,
+    "container_ids": [
+      "P1-LA1",
+      "P1-LA2"
+    ],
+    "container_details": [
+      {
+        "container": "P1-LA1",
+        "median_change": 0,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P1-LA1-c1",
+            "pre_grade": 0,
+            "post_grade": 0,
+            "change": 0
+          }
+        ]
+      },
+      {
+        "container": "P1-LA2",
+        "median_change": 1,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P1-LA2-c1",
+            "pre_grade": 0,
+            "post_grade": 1,
+            "change": 1
+          }
+        ]
+      }
+    ],
+    "excluded_coupons": []
+  },
+  {
+    "fact_id": "A2-control-cross-contamination|combination|2026-04-01/2026-06-30|silver|adhesive-B+liner-A",
+    "scenario": "A2-control-cross-contamination",
+    "scenario_kind": "invalidate_control",
+    "amendment": "A2-control-cross-contamination",
+    "note": "该空白对照曾与待评组合共用一次暴露环境，不再作为空白对照",
+    "scope": "combination",
+    "exposure_period": "2026-04-01/2026-06-30",
+    "metal": "silver",
+    "combination": [
+      "adhesive-B",
+      "liner-A"
+    ],
+    "container_count": 2,
+    "valid_container_count": 2,
+    "coupon_count": 5,
+    "valid_record_count": 2,
+    "treatment_median_change": 2.0,
+    "control_median_change": 0.0,
+    "control_container_count": 2,
+    "relative_change": 2.0,
+    "direction": "increase",
+    "status": "evaluated",
+    "comparable_above_visual_limit_count": 2,
+    "excluded_above_visual_limit_count": 3,
+    "container_ids": [
+      "P1-LA1",
+      "P1-LA2"
+    ],
+    "container_details": [
+      {
+        "container": "P1-LA1",
+        "median_change": 2,
+        "included_coupon_count": 1,
+        "coupon_count": 3,
+        "coupons": [
+          {
+            "coupon": "P1-LA1-s1",
+            "pre_grade": 0,
+            "post_grade": 2,
+            "change": null
+          },
+          {
+            "coupon": "P1-LA1-s2",
+            "pre_grade": 0,
+            "post_grade": 2,
+            "change": 2
+          },
+          {
+            "coupon": "P1-LA1-s3",
+            "pre_grade": 0,
+            "post_grade": 3,
+            "change": null
+          }
+        ]
+      },
+      {
+        "container": "P1-LA2",
+        "median_change": 2,
+        "included_coupon_count": 1,
+        "coupon_count": 2,
+        "coupons": [
+          {
+            "coupon": "P1-LA2-s1",
+            "pre_grade": 0,
+            "post_grade": 2,
+            "change": 2
+          },
+          {
+            "coupon": "P1-LA2-s2",
+            "pre_grade": 0,
+            "post_grade": 3,
+            "change": null
+          }
+        ]
+      }
+    ],
+    "excluded_coupons": [
+      {
+        "container": "P1-LA1",
+        "coupon": "P1-LA1-s1",
+        "pre_grade": 0,
+        "post_grade": 2,
+        "change": null,
+        "reason": "pre_existing_blemish"
+      },
+      {
+        "container": "P1-LA1",
+        "coupon": "P1-LA1-s3",
+        "pre_grade": 0,
+        "post_grade": 3,
+        "change": null,
+        "reason": "pre_existing_blemish"
+      },
+      {
+        "container": "P1-LA2",
+        "coupon": "P1-LA2-s2",
+        "pre_grade": 0,
+        "post_grade": 3,
+        "change": null,
+        "reason": "pre_existing_blemish"
+      }
+    ]
+  },
+  {
+    "fact_id": "A2-control-cross-contamination|combination|2026-04-01/2026-06-30|copper|liner-A",
+    "scenario": "A2-control-cross-contamination",
+    "scenario_kind": "invalidate_control",
+    "amendment": "A2-control-cross-contamination",
+    "note": "该空白对照曾与待评组合共用一次暴露环境，不再作为空白对照",
+    "scope": "combination",
+    "exposure_period": "2026-04-01/2026-06-30",
+    "metal": "copper",
+    "combination": [
+      "liner-A"
+    ],
+    "container_count": 2,
+    "valid_container_count": 2,
+    "coupon_count": 2,
+    "valid_record_count": 2,
+    "treatment_median_change": 0.0,
+    "control_median_change": 0.0,
+    "control_container_count": 2,
+    "relative_change": 0.0,
+    "direction": "no_change",
+    "status": "evaluated",
+    "comparable_above_visual_limit_count": 0,
+    "excluded_above_visual_limit_count": 0,
+    "container_ids": [
+      "P1-L1",
+      "P1-L2"
+    ],
+    "container_details": [
+      {
+        "container": "P1-L1",
+        "median_change": 0,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P1-L1-c1",
+            "pre_grade": 0,
+            "post_grade": 0,
+            "change": 0
+          }
+        ]
+      },
+      {
+        "container": "P1-L2",
+        "median_change": 0,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P1-L2-c1",
+            "pre_grade": 0,
+            "post_grade": 0,
+            "change": 0
+          }
+        ]
+      }
+    ],
+    "excluded_coupons": []
+  },
+  {
+    "fact_id": "A2-control-cross-contamination|combination|2026-04-01/2026-06-30|silver|liner-A",
+    "scenario": "A2-control-cross-contamination",
+    "scenario_kind": "invalidate_control",
+    "amendment": "A2-control-cross-contamination",
+    "note": "该空白对照曾与待评组合共用一次暴露环境，不再作为空白对照",
+    "scope": "combination",
+    "exposure_period": "2026-04-01/2026-06-30",
+    "metal": "silver",
+    "combination": [
+      "liner-A"
+    ],
+    "container_count": 2,
+    "valid_container_count": 2,
+    "coupon_count": 3,
+    "valid_record_count": 3,
+    "treatment_median_change": 1.0,
+    "control_median_change": 0.0,
+    "control_container_count": 2,
+    "relative_change": 1.0,
+    "direction": "increase",
+    "status": "evaluated",
+    "comparable_above_visual_limit_count": 0,
+    "excluded_above_visual_limit_count": 0,
+    "container_ids": [
+      "P1-L1",
+      "P1-L2"
+    ],
+    "container_details": [
+      {
+        "container": "P1-L1",
+        "median_change": 1.0,
+        "included_coupon_count": 2,
+        "coupon_count": 2,
+        "coupons": [
+          {
+            "coupon": "P1-L1-s1",
+            "pre_grade": 0,
+            "post_grade": 1,
+            "change": 1
+          },
+          {
+            "coupon": "P1-L1-s2",
+            "pre_grade": 0,
+            "post_grade": 1,
+            "change": 1
+          }
+        ]
+      },
+      {
+        "container": "P1-L2",
+        "median_change": 1,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P1-L2-s1",
+            "pre_grade": 0,
+            "post_grade": 1,
+            "change": 1
+          }
+        ]
+      }
+    ],
+    "excluded_coupons": []
+  },
+  {
+    "fact_id": "A2-control-cross-contamination|combination|2026-07-01/2026-09-30|copper|adhesive-B+liner-A",
+    "scenario": "A2-control-cross-contamination",
+    "scenario_kind": "invalidate_control",
+    "amendment": "A2-control-cross-contamination",
+    "note": "该空白对照曾与待评组合共用一次暴露环境，不再作为空白对照",
+    "scope": "combination",
+    "exposure_period": "2026-07-01/2026-09-30",
+    "metal": "copper",
+    "combination": [
+      "adhesive-B",
+      "liner-A"
+    ],
+    "container_count": 2,
+    "valid_container_count": 2,
+    "coupon_count": 2,
+    "valid_record_count": 2,
+    "treatment_median_change": 1.0,
+    "control_median_change": 0,
+    "control_container_count": 1,
+    "relative_change": 1.0,
+    "direction": "increase",
+    "status": "evaluated",
+    "comparable_above_visual_limit_count": 0,
+    "excluded_above_visual_limit_count": 0,
+    "container_ids": [
+      "P2-LA1",
+      "P2-LA2"
+    ],
+    "container_details": [
+      {
+        "container": "P2-LA1",
+        "median_change": 1,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P2-LA1-c1",
+            "pre_grade": 0,
+            "post_grade": 1,
+            "change": 1
+          }
+        ]
+      },
+      {
+        "container": "P2-LA2",
+        "median_change": 1,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P2-LA2-c1",
+            "pre_grade": 0,
+            "post_grade": 1,
+            "change": 1
+          }
+        ]
+      }
+    ],
+    "excluded_coupons": []
+  },
+  {
+    "fact_id": "A2-control-cross-contamination|combination|2026-07-01/2026-09-30|silver|adhesive-B+liner-A",
+    "scenario": "A2-control-cross-contamination",
+    "scenario_kind": "invalidate_control",
+    "amendment": "A2-control-cross-contamination",
+    "note": "该空白对照曾与待评组合共用一次暴露环境，不再作为空白对照",
+    "scope": "combination",
+    "exposure_period": "2026-07-01/2026-09-30",
+    "metal": "silver",
+    "combination": [
+      "adhesive-B",
+      "liner-A"
+    ],
+    "container_count": 2,
+    "valid_container_count": 2,
+    "coupon_count": 2,
+    "valid_record_count": 2,
+    "treatment_median_change": 1.0,
+    "control_median_change": 0,
+    "control_container_count": 1,
+    "relative_change": 1.0,
+    "direction": "increase",
+    "status": "evaluated",
+    "comparable_above_visual_limit_count": 0,
+    "excluded_above_visual_limit_count": 0,
+    "container_ids": [
+      "P2-LA1",
+      "P2-LA2"
+    ],
+    "container_details": [
+      {
+        "container": "P2-LA1",
+        "median_change": 1,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P2-LA1-s1",
+            "pre_grade": 0,
+            "post_grade": 1,
+            "change": 1
+          }
+        ]
+      },
+      {
+        "container": "P2-LA2",
+        "median_change": 1,
+        "included_coupon_count": 1,
+        "coupon_count": 1,
+        "coupons": [
+          {
+            "coupon": "P2-LA2-s1",
+            "pre_grade": 0,
+            "post_grade": 1,
+            "change": 1
+          }
+        ]
+      }
+    ],
+    "excluded_coupons": []
+  },
+  {
+    "fact_id": "A2-control-cross-contamination|combination|2026-07-01/2026-09-30|silver|liner-A",
+    "scenario": "A2-control-cross-contamination",
+    "scenario_kind": "invalidate_control",
+    "amendment": "A2-control-cross-contamination",
+    "note": "该空白对照曾与待评组合共用一次暴露环境，不再作为空白对照",
+    "scope": "combination",
+    "exposure_period": "2026-07-01/2026-09-30",
+    "metal": "silver",
+    "combination": [
+      "liner-A"
+    ],
+    "container_count": 1,
+    "valid_container_count": 1,
+    "coupon_count": 2,
+    "valid_record_count": 1,
+    "treatment_median_change": 0,
+    "control_median_change": 0,
+    "control_container_count": 1,
+    "relative_change": 0,
+    "direction": "no_change",
+    "status": "evaluated",
+    "comparable_above_visual_limit_count": 0,
+    "excluded_above_visual_limit_count": 0,
+    "container_ids": [
+      "P2-L1"
+    ],
+    "container_details": [
+      {
+        "container": "P2-L1",
+        "median_change": 0,
+        "included_coupon_count": 1,
+        "coupon_count": 2,
+        "coupons": [
+          {
+            "coupon": "P2-L1-s1",
+            "pre_grade": 0,
+            "post_grade": 0,
+            "change": 0
+          },
+          {
+            "coupon": "P2-L1-s2",
+            "pre_grade": null,
+            "post_grade": 1,
+            "change": null
+          }
+        ]
+      }
+    ],
+    "excluded_coupons": [
+      {
+        "container": "P2-L1",
+        "coupon": "P2-L1-s2",
+        "pre_grade": null,
+        "post_grade": 1,
+        "change": null,
+        "reason": "missing_pre_grade"
+      }
+    ]
+  },
+  {
+    "fact_id": "A2-control-cross-contamination|material|2026-04-01/2026-06-30|copper|adhesive-B+liner-A|adhesive-B",
+    "scenario": "A2-control-cross-contamination",
+    "scenario_kind": "invalidate_control",
+    "amendment": "A2-control-cross-contamination",
+    "note": "该空白对照曾与待评组合共用一次暴露环境，不再作为空白对照",
+    "scope": "material",
+    "combination": [
+      "adhesive-B",
+      "liner-A"
+    ],
+    "material": "adhesive-B",
+    "metal": "copper",
+    "exposure_period": "2026-04-01/2026-06-30",
+    "basis": "matched_combination",
+    "comparison_combination": [
+      "liner-A"
+    ],
+    "comparison_median_change": 0.0,
+    "relative_change": 0.5,
+    "direction": "no_change",
+    "status": "evaluated",
+    "reason": null,
+    "control_container_count": 2
+  },
+  {
+    "fact_id": "A2-control-cross-contamination|material|2026-04-01/2026-06-30|copper|adhesive-B+liner-A|liner-A",
+    "scenario": "A2-control-cross-contamination",
+    "scenario_kind": "invalidate_control",
+    "amendment": "A2-control-cross-contamination",
+    "note": "该空白对照曾与待评组合共用一次暴露环境，不再作为空白对照",
+    "scope": "material",
+    "combination": [
+      "adhesive-B",
+      "liner-A"
+    ],
+    "material": "liner-A",
+    "metal": "copper",
+    "exposure_period": "2026-04-01/2026-06-30",
+    "basis": "matched_combination",
+    "comparison_combination": [
+      "adhesive-B"
+    ],
+    "comparison_median_change": null,
+    "relative_change": null,
+    "direction": "undetermined",
+    "status": "pending_no_matched_combination",
+    "reason": "no matched combination in the same exposure period",
+    "control_container_count": 2
+  },
+  {
+    "fact_id": "A2-control-cross-contamination|material|2026-04-01/2026-06-30|silver|adhesive-B+liner-A|adhesive-B",
+    "scenario": "A2-control-cross-contamination",
+    "scenario_kind": "invalidate_control",
+    "amendment": "A2-control-cross-contamination",
+    "note": "该空白对照曾与待评组合共用一次暴露环境，不再作为空白对照",
+    "scope": "material",
+    "combination": [
+      "adhesive-B",
+      "liner-A"
+    ],
+    "material": "adhesive-B",
+    "metal": "silver",
+    "exposure_period": "2026-04-01/2026-06-30",
+    "basis": "matched_combination",
+    "comparison_combination": [
+      "liner-A"
+    ],
+    "comparison_median_change": 1.0,
+    "relative_change": 1.0,
+    "direction": "increase",
+    "status": "evaluated",
+    "reason": null,
+    "control_container_count": 2
+  },
+  {
+    "fact_id": "A2-control-cross-contamination|material|2026-04-01/2026-06-30|silver|adhesive-B+liner-A|liner-A",
+    "scenario": "A2-control-cross-contamination",
+    "scenario_kind": "invalidate_control",
+    "amendment": "A2-control-cross-contamination",
+    "note": "该空白对照曾与待评组合共用一次暴露环境，不再作为空白对照",
+    "scope": "material",
+    "combination": [
+      "adhesive-B",
+      "liner-A"
+    ],
+    "material": "liner-A",
+    "metal": "silver",
+    "exposure_period": "2026-04-01/2026-06-30",
+    "basis": "matched_combination",
+    "comparison_combination": [
+      "adhesive-B"
+    ],
+    "comparison_median_change": null,
+    "relative_change": null,
+    "direction": "undetermined",
+    "status": "pending_no_matched_combination",
+    "reason": "no matched combination in the same exposure period",
+    "control_container_count": 2
+  },
+  {
+    "fact_id": "A2-control-cross-contamination|material|2026-04-01/2026-06-30|copper|liner-A|liner-A",
+    "scenario": "A2-control-cross-contamination",
+    "scenario_kind": "invalidate_control",
+    "amendment": "A2-control-cross-contamination",
+    "note": "该空白对照曾与待评组合共用一次暴露环境，不再作为空白对照",
+    "scope": "material",
+    "combination": [
+      "liner-A"
+    ],
+    "material": "liner-A",
+    "metal": "copper",
+    "exposure_period": "2026-04-01/2026-06-30",
+    "basis": "blank_control",
+    "comparison_combination": [],
+    "comparison_median_change": 0.0,
+    "relative_change": 0.0,
+    "direction": "no_change",
+    "status": "evaluated",
+    "reason": null,
+    "control_container_count": 2
+  },
+  {
+    "fact_id": "A2-control-cross-contamination|material|2026-04-01/2026-06-30|silver|liner-A|liner-A",
+    "scenario": "A2-control-cross-contamination",
+    "scenario_kind": "invalidate_control",
+    "amendment": "A2-control-cross-contamination",
+    "note": "该空白对照曾与待评组合共用一次暴露环境，不再作为空白对照",
+    "scope": "material",
+    "combination": [
+      "liner-A"
+    ],
+    "material": "liner-A",
+    "metal": "silver",
+    "exposure_period": "2026-04-01/2026-06-30",
+    "basis": "blank_control",
+    "comparison_combination": [],
+    "comparison_median_change": 0.0,
+    "relative_change": 1.0,
+    "direction": "increase",
+    "status": "evaluated",
+    "reason": null,
+    "control_container_count": 2
+  },
+  {
+    "fact_id": "A2-control-cross-contamination|material|2026-07-01/2026-09-30|copper|adhesive-B+liner-A|adhesive-B",
+    "scenario": "A2-control-cross-contamination",
+    "scenario_kind": "invalidate_control",
+    "amendment": "A2-control-cross-contamination",
+    "note": "该空白对照曾与待评组合共用一次暴露环境，不再作为空白对照",
+    "scope": "material",
+    "combination": [
+      "adhesive-B",
+      "liner-A"
+    ],
+    "material": "adhesive-B",
+    "metal": "copper",
+    "exposure_period": "2026-07-01/2026-09-30",
+    "basis": "matched_combination",
+    "comparison_combination": [
+      "liner-A"
+    ],
+    "comparison_median_change": null,
+    "relative_change": null,
+    "direction": "undetermined",
+    "status": "pending_no_matched_combination",
+    "reason": "no matched combination in the same exposure period",
+    "control_container_count": 1
+  },
+  {
+    "fact_id": "A2-control-cross-contamination|material|2026-07-01/2026-09-30|copper|adhesive-B+liner-A|liner-A",
+    "scenario": "A2-control-cross-contamination",
+    "scenario_kind": "invalidate_control",
+    "amendment": "A2-control-cross-contamination",
+    "note": "该空白对照曾与待评组合共用一次暴露环境，不再作为空白对照",
+    "scope": "material",
+    "combination": [
+      "adhesive-B",
+      "liner-A"
+    ],
+    "material": "liner-A",
+    "metal": "copper",
+    "exposure_period": "2026-07-01/2026-09-30",
+    "basis": "matched_combination",
+    "comparison_combination": [
+      "adhesive-B"
+    ],
+    "comparison_median_change": null,
+    "relative_change": null,
+    "direction": "undetermined",
+    "status": "pending_no_matched_combination",
+    "reason": "no matched combination in the same exposure period",
+    "control_container_count": 1
+  },
+  {
+    "fact_id": "A2-control-cross-contamination|material|2026-07-01/2026-09-30|silver|adhesive-B+liner-A|adhesive-B",
+    "scenario": "A2-control-cross-contamination",
+    "scenario_kind": "invalidate_control",
+    "amendment": "A2-control-cross-contamination",
+    "note": "该空白对照曾与待评组合共用一次暴露环境，不再作为空白对照",
+    "scope": "material",
+    "combination": [
+      "adhesive-B",
+      "liner-A"
+    ],
+    "material": "adhesive-B",
+    "metal": "silver",
+    "exposure_period": "2026-07-01/2026-09-30",
+    "basis": "matched_combination",
+    "comparison_combination": [
+      "liner-A"
+    ],
+    "comparison_median_change": 0,
+    "relative_change": 1.0,
+    "direction": "increase",
+    "status": "evaluated",
+    "reason": null,
+    "control_container_count": 1
+  },
+  {
+    "fact_id": "A2-control-cross-contamination|material|2026-07-01/2026-09-30|silver|adhesive-B+liner-A|liner-A",
+    "scenario": "A2-control-cross-contamination",
+    "scenario_kind": "invalidate_control",
+    "amendment": "A2-control-cross-contamination",
+    "note": "该空白对照曾与待评组合共用一次暴露环境，不再作为空白对照",
+    "scope": "material",
+    "combination": [
+      "adhesive-B",
+      "liner-A"
+    ],
+    "material": "liner-A",
+    "metal": "silver",
+    "exposure_period": "2026-07-01/2026-09-30",
+    "basis": "matched_combination",
+    "comparison_combination": [
+      "adhesive-B"
+    ],
+    "comparison_median_change": null,
+    "relative_change": null,
+    "direction": "undetermined",
+    "status": "pending_no_matched_combination",
+    "reason": "no matched combination in the same exposure period",
+    "control_container_count": 1
+  },
+  {
+    "fact_id": "A2-control-cross-contamination|material|2026-07-01/2026-09-30|silver|liner-A|liner-A",
+    "scenario": "A2-control-cross-contamination",
+    "scenario_kind": "invalidate_control",
+    "amendment": "A2-control-cross-contamination",
+    "note": "该空白对照曾与待评组合共用一次暴露环境，不再作为空白对照",
+    "scope": "material",
+    "combination": [
+      "liner-A"
+    ],
+    "material": "liner-A",
+    "metal": "silver",
+    "exposure_period": "2026-07-01/2026-09-30",
+    "basis": "blank_control",
+    "comparison_combination": [],
+    "comparison_median_change": 0,
+    "relative_change": 0,
+    "direction": "no_change",
+    "status": "evaluated",
+    "reason": null,
+    "control_container_count": 1
+  },
+  {
+    "fact_id": "A2-control-cross-contamination|recommendation|01",
+    "scenario": "A2-control-cross-contamination",
+    "scenario_kind": "invalidate_control",
+    "amendment": "A2-control-cross-contamination",
+    "note": "该空白对照曾与待评组合共用一次暴露环境，不再作为空白对照",
+    "scope": "recommendation",
+    "rank": 1,
+    "exposure_period": "2026-04-01/2026-06-30",
+    "materials": [
+      "adhesive-B"
+    ],
+    "metals": [
+      "copper",
+      "silver"
+    ],
+    "reason": "missing_matched_combination",
+    "detail": "no adhesive-B-only combination in the same exposure period",
+    "affects": [
+      "material:adhesive-B+liner-A/liner-A/copper",
+      "material:adhesive-B+liner-A/liner-A/silver"
+    ],
+    "score": 2
+  },
+  {
+    "fact_id": "A2-control-cross-contamination|recommendation|02",
+    "scenario": "A2-control-cross-contamination",
+    "scenario_kind": "invalidate_control",
+    "amendment": "A2-control-cross-contamination",
+    "note": "该空白对照曾与待评组合共用一次暴露环境，不再作为空白对照",
+    "scope": "recommendation",
+    "rank": 2,
+    "exposure_period": "2026-07-01/2026-09-30",
+    "materials": [],
+    "metals": [
+      "copper",
+      "silver"
+    ],
+    "reason": "single_blank_control",
+    "detail": "only one valid blank control container remains; repeat for replication",
+    "affects": [
+      "control:copper",
+      "control:silver"
+    ],
+    "score": 2
+  },
+  {
+    "fact_id": "A2-control-cross-contamination|recommendation|03",
+    "scenario": "A2-control-cross-contamination",
+    "scenario_kind": "invalidate_control",
+    "amendment": "A2-control-cross-contamination",
+    "note": "该空白对照曾与待评组合共用一次暴露环境，不再作为空白对照",
+    "scope": "recommendation",
+    "rank": 3,
+    "exposure_period": "2026-07-01/2026-09-30",
+    "materials": [
+      "adhesive-B"
+    ],
+    "metals": [
+      "copper",
+      "silver"
+    ],
+    "reason": "missing_matched_combination",
+    "detail": "no adhesive-B-only combination in the same exposure period",
+    "affects": [
+      "material:adhesive-B+liner-A/liner-A/copper",
+      "material:adhesive-B+liner-A/liner-A/silver"
+    ],
+    "score": 2
+  },
+  {
+    "fact_id": "A2-control-cross-contamination|recommendation|04",
+    "scenario": "A2-control-cross-contamination",
+    "scenario_kind": "invalidate_control",
+    "amendment": "A2-control-cross-contamination",
+    "note": "该空白对照曾与待评组合共用一次暴露环境，不再作为空白对照",
+    "scope": "recommendation",
+    "rank": 4,
+    "exposure_period": "2026-07-01/2026-09-30",
+    "materials": [
+      "liner-A"
+    ],
+    "metals": [
+      "copper"
+    ],
+    "reason": "missing_matched_combination",
+    "detail": "no liner-A-only combination in the same exposure period",
+    "affects": [
+      "material:adhesive-B+liner-A/adhesive-B/copper"
+    ],
+    "score": 1
+  },
+  {
+    "fact_id": "A2-control-cross-contamination|impact|combination|2026-07-01/2026-09-30|copper|adhesive-B+liner-A",
+    "scenario": "A2-control-cross-contamination",
+    "scenario_kind": "invalidate_control",
+    "amendment": "A2-control-cross-contamination",
+    "scope": "amendment_impact",
+    "change": "direction",
+    "target_scope": "combination",
+    "exposure_period": "2026-07-01/2026-09-30",
+    "metal": "copper",
+    "combination": [
+      "adhesive-B",
+      "liner-A"
+    ],
+    "material": null,
+    "before": {
+      "status": "evaluated",
+      "direction": "no_change",
+      "relative_change": 0.5
+    },
+    "after": {
+      "status": "evaluated",
+      "direction": "increase",
+      "relative_change": 1.0
+    },
+    "note": "该空白对照曾与待评组合共用一次暴露环境，不再作为空白对照"
+  },
+  {
+    "fact_id": "A2-control-cross-contamination|impact|combination|2026-07-01/2026-09-30|silver|adhesive-B+liner-A",
+    "scenario": "A2-control-cross-contamination",
+    "scenario_kind": "invalidate_control",
+    "amendment": "A2-control-cross-contamination",
+    "scope": "amendment_impact",
+    "change": "direction",
+    "target_scope": "combination",
+    "exposure_period": "2026-07-01/2026-09-30",
+    "metal": "silver",
+    "combination": [
+      "adhesive-B",
+      "liner-A"
+    ],
+    "material": null,
+    "before": {
+      "status": "evaluated",
+      "direction": "no_change",
+      "relative_change": 0.5
+    },
+    "after": {
+      "status": "evaluated",
+      "direction": "increase",
+      "relative_change": 1.0
+    },
+    "note": "该空白对照曾与待评组合共用一次暴露环境，不再作为空白对照"
+  }
+]

@@ -1,0 +1,119 @@
+{
+  "max_grade": 1,
+  "min_change_grades": 1,
+  "containers": [
+    {
+      "id": "P1-C1",
+      "role": "control",
+      "materials": [],
+      "exposure_period": "2026-04-01/2026-06-30"
+    },
+    {
+      "id": "P1-C2",
+      "role": "control",
+      "materials": [],
+      "exposure_period": "2026-04-01/2026-06-30"
+    },
+    {
+      "id": "P1-L1",
+      "role": "treatment",
+      "materials": ["liner-A"],
+      "exposure_period": "2026-04-01/2026-06-30"
+    },
+    {
+      "id": "P1-L2",
+      "role": "treatment",
+      "materials": ["liner-A"],
+      "exposure_period": "2026-04-01/2026-06-30"
+    },
+    {
+      "id": "P1-LA1",
+      "role": "treatment",
+      "materials": ["adhesive-B", "liner-A"],
+      "exposure_period": "2026-04-01/2026-06-30"
+    },
+    {
+      "id": "P1-LA2",
+      "role": "treatment",
+      "materials": ["adhesive-B", "liner-A"],
+      "exposure_period": "2026-04-01/2026-06-30"
+    },
+    {
+      "id": "P2-C1",
+      "role": "control",
+      "materials": [],
+      "exposure_period": "2026-07-01/2026-09-30"
+    },
+    {
+      "id": "P2-C2",
+      "role": "control",
+      "materials": [],
+      "exposure_period": "2026-07-01/2026-09-30"
+    },
+    {
+      "id": "P2-L1",
+      "role": "treatment",
+      "materials": ["liner-A"],
+      "exposure_period": "2026-07-01/2026-09-30"
+    },
+    {
+      "id": "P2-LA1",
+      "role": "treatment",
+      "materials": ["adhesive-B", "liner-A"],
+      "exposure_period": "2026-07-01/2026-09-30"
+    },
+    {
+      "id": "P2-LA2",
+      "role": "treatment",
+      "materials": ["adhesive-B", "liner-A"],
+      "exposure_period": "2026-07-01/2026-09-30"
+    }
+  ],
+  "coupons": [
+    {"id": "P1-C1-s1", "container": "P1-C1", "metal": "silver", "pre_grade": 0, "post_grade": 0},
+    {"id": "P1-C1-c1", "container": "P1-C1", "metal": "copper", "pre_grade": 0, "post_grade": 0},
+    {"id": "P1-C2-s1", "container": "P1-C2", "metal": "silver", "pre_grade": 0, "post_grade": 0},
+    {"id": "P1-C2-c1", "container": "P1-C2", "metal": "copper", "pre_grade": 0, "post_grade": 0},
+
+    {"id": "P1-L1-s1", "container": "P1-L1", "metal": "silver", "pre_grade": 0, "post_grade": 1},
+    {"id": "P1-L1-s2", "container": "P1-L1", "metal": "silver", "pre_grade": 0, "post_grade": 1},
+    {"id": "P1-L1-c1", "container": "P1-L1", "metal": "copper", "pre_grade": 0, "post_grade": 0},
+    {"id": "P1-L2-s1", "container": "P1-L2", "metal": "silver", "pre_grade": 0, "post_grade": 1},
+    {"id": "P1-L2-c1", "container": "P1-L2", "metal": "copper", "pre_grade": 0, "post_grade": 0},
+
+    {"id": "P1-LA1-s1", "container": "P1-LA1", "metal": "silver", "pre_grade": 0, "post_grade": 2, "pre_existing_blemish": true},
+    {"id": "P1-LA1-s2", "container": "P1-LA1", "metal": "silver", "pre_grade": 0, "post_grade": 2},
+    {"id": "P1-LA1-s3", "container": "P1-LA1", "metal": "silver", "pre_grade": 0, "post_grade": 3, "pre_existing_blemish": true},
+    {"id": "P1-LA1-c1", "container": "P1-LA1", "metal": "copper", "pre_grade": 0, "post_grade": 0},
+    {"id": "P1-LA2-s1", "container": "P1-LA2", "metal": "silver", "pre_grade": 0, "post_grade": 2},
+    {"id": "P1-LA2-s2", "container": "P1-LA2", "metal": "silver", "pre_grade": 0, "post_grade": 3, "pre_existing_blemish": true},
+    {"id": "P1-LA2-c1", "container": "P1-LA2", "metal": "copper", "pre_grade": 0, "post_grade": 1},
+
+    {"id": "P2-C1-s1", "container": "P2-C1", "metal": "silver", "pre_grade": 0, "post_grade": 0},
+    {"id": "P2-C1-c1", "container": "P2-C1", "metal": "copper", "pre_grade": 0, "post_grade": 0},
+    {"id": "P2-C2-s1", "container": "P2-C2", "metal": "silver", "pre_grade": 0, "post_grade": 1},
+    {"id": "P2-C2-c1", "container": "P2-C2", "metal": "copper", "pre_grade": 0, "post_grade": 1},
+
+    {"id": "P2-L1-s1", "container": "P2-L1", "metal": "silver", "pre_grade": 0, "post_grade": 0},
+    {"id": "P2-L1-s2", "container": "P2-L1", "metal": "silver", "post_grade": 1},
+    {"id": "P2-LA1-s1", "container": "P2-LA1", "metal": "silver", "pre_grade": 0, "post_grade": 1},
+    {"id": "P2-LA1-c1", "container": "P2-LA1", "metal": "copper", "pre_grade": 0, "post_grade": 1},
+    {"id": "P2-LA2-s1", "container": "P2-LA2", "metal": "silver", "pre_grade": 0, "post_grade": 1},
+    {"id": "P2-LA2-c1", "container": "P2-LA2", "metal": "copper", "pre_grade": 0, "post_grade": 1}
+  ],
+  "amendments": [
+    {
+      "id": "A1-missing-pre-record",
+      "kind": "add_pre_grade",
+      "coupon": "P2-L1-s2",
+      "pre_grade": 0,
+      "note": "补到入箱前照片，确认该试片入箱前为 0 级"
+    },
+    {
+      "id": "A2-control-cross-contamination",
+      "kind": "invalidate_control",
+      "container": "P2-C2",
+      "note": "该空白对照曾与待评组合共用一次暴露环境，不再作为空白对照"
+    }
+  ]
+}
